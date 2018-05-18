@@ -1,12 +1,12 @@
 import Layout from "../components/layout";
 import Sidebar from "../components/sidebar";
+import "../styles.scss";
 
 const Index = () => (
   <div>
     <Layout>
-      <div>
-        <h4>I’m Hanna</h4> A front end developer based in Vancouver, BC, Canada
-      </div>
+      <h2>I’m Hanna</h2>
+      <h3>A front end developer based in Vancouver, BC, Canada</h3>
       <div>
         <img src="/static/assets/smurff.png" alt="Profile" />
       </div>
@@ -14,4 +14,5 @@ const Index = () => (
     <Sidebar />
   </div>
 );
+
 export default Index;
