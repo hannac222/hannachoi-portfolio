@@ -1,5 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
+// SASS Imports
+@import "./scss/bootstrap-reboot-with-comments";
+@import "./scss/variables";
+@import "./scss/layout";
 @import "./scss/generalstyle";
 @import "./scss/header";
+@import "./scss/sidebar";
+@import "./scss/footer";

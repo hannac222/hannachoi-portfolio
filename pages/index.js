@@ -1,5 +1,6 @@
 import Layout from "../components/layout";
 import Sidebar from "../components/sidebar";
+import Footer from "../components/footer";
 import "../styles.scss";
 
 const Index = () => (
@@ -10,6 +11,7 @@ const Index = () => (
       <div>
         <img src="/static/assets/smurff.png" alt="Profile" />
       </div>
+      <Footer />
     </Layout>
     <Sidebar />
   </div>
