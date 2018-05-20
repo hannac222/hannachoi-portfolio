@@ -6,7 +6,7 @@ const Lemongrass = () => (
       <h1>Lemongrass</h1>
       <p>A Pictional Business Website Project from BCIT TWD Program</p>
       <Link href="/lemongrass">
-        <button>Show me more</button>
+        <button className="btn">Show me more</button>
       </Link>
     </div>
     <div className="main-image">

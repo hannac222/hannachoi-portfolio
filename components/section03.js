@@ -6,7 +6,7 @@ const Section03 = () => (
       <h1>BCIT TWD Portfolio</h1>
       <p>Display projects from BCIT</p>
       <Link href="/bcit-portfolio">
-        <button>Show me more</button>
+        <button className="btn">Show me more</button>
       </Link>
     </div>
     <div className="main-image">

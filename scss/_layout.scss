@@ -1,9 +1,10 @@
+// Common Style
 body {
-    background-color: $body-background;
-    color: $font-color;
+  background-color: $backgroundColor;
+  color: $white;
 }
 
 .main {
-    margin-top: $from-top;
-    margin-left: $from-left;
+  margin-top: $marginTop;
+  margin-left: $marginLeft;
 }

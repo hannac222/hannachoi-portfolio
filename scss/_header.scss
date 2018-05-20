@@ -1,23 +1,23 @@
 .header {
-    display: flex;
-    font-size: 23px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    .name {
-        margin: 30px 20px auto 40px;
-        letter-spacing: 0.1em;
+  display: flex;
+  font-size: 23px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  .name {
+    margin: 30px 20px auto 40px;
+    letter-spacing: 0.1em;
+  }
+  .nav {
+    margin: 30px 20px 15px auto;
+    a {
+      letter-spacing: 0.1em;
+      margin-right: 20px;
     }
-    .nav {
-        margin: 30px 20px 15px auto;
-        a {
-            letter-spacing: 0.1em;
-            margin-right: 20px;
-        }
-    }
+  }
 }
 
 .header a {
-    text-decoration: none;
-    color: $font-color;
+  text-decoration: none;
+  color: $white;
 }

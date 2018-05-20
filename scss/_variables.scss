@@ -1,6 +1,31 @@
 // Colors
-$body-background: rgb(40, 40, 35);
-$font-color: #ffffff;
+$backgroundColor: rgb(40, 40, 35);
+$white: #ffffff;
+$darkWhite: #eeeeee;
+$red: #ff4d5a;
+/**/
+
 // Sizes
-$from-top: 79px;
-$from-left: 40px;
+$marginTop: 79px;
+$marginLeft: 40px;
+/**/
+
+// Animation
+$anim: 250ms ease-in-out;
+/**/
+
+// Border
+$borderRadius: 50px;
+/**/
+
+// Placeholder
+%clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
