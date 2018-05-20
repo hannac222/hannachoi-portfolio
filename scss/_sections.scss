@@ -1,0 +1,17 @@
+// Sections
+.wrapper {
+    // display: flex;
+}
+
+.title {
+    position: absolute;
+    overflow: hidden;
+    top: 35%;
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0); // z-index: 200;
+    margin-left: 10%;
+}
+
+.main-image {
+    //   transform: scale(1) translateX(0%) translateZ(0px);
+}

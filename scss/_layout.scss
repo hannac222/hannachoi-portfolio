@@ -1,3 +1,8 @@
+body {
+    background-color: $body-background;
+    color: $font-color;
+}
+
 .main {
     margin-top: $from-top;
     margin-left: $from-left;
