@@ -21,8 +21,10 @@
   "homepage": "https://github.com/hannac222/hannachoi-portfolio#readme",
   "dependencies": {
     "@zeit/next-sass": "^0.2.0",
+    "fullpage-react": "^3.0.31",
     "next": "^6.0.2",
     "node-sass": "^4.9.0",
+    "prop-types": "^15.6.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
   }
