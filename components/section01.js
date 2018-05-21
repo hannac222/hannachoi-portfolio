@@ -1,3 +1,5 @@
+import Footer from "../components/footer";
+
 const Section01 = () => (
   <div className="wrapper">
     <div className="title">
@@ -7,6 +9,7 @@ const Section01 = () => (
     <div className="main-image">
       <img src="/static/assets/smurff.png" alt="Profile" />
     </div>
+    <Footer />
   </div>
 );
 

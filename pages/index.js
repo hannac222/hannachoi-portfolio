@@ -4,7 +4,6 @@ import Sidebar from "../components/sidebar";
 import Section01 from "../components/section01";
 import Section02 from "../components/section02";
 import Section03 from "../components/section03";
-import Footer from "../components/footer";
 import "../styles.scss";
 
 const fullPageOptions = {
@@ -37,7 +36,6 @@ const Index = () => (
   <div>
     <Layout>
       <Fullpage {...fullPageOptions} />
-      <Footer />
     </Layout>
     <Sidebar />
   </div>

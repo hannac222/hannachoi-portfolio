@@ -1,35 +1,59 @@
 .wrapper {
-    // display: flex;
+  height: 100vh;
+  width: 100%;
 }
 
 .title {
-    position: absolute;
-    overflow: hidden;
-    top: 35%;
-    -webkit-transform: translate3d(0, -50%, 0);
-    transform: translate3d(0, -50%, 0); // z-index: 200;
-    margin-left: 10%;
+  position: absolute;
+  overflow: hidden;
+  top: 35%;
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0); // z-index: 200;
+  margin-left: 10%;
+  letter-spacing: 0.1em;
+  font-size: 23px;
+  z-index: 999;
 }
 
-.main-image {
-    //   transform: scale(1) translateX(0%) translateZ(0px);
+.description {
+  font-size: 18px;
+}
+
+.featured-image {
+  display: block;
+  position: relative;
+  width: 53.125%;
+  height: 74.81%;
+  margin: 0 8% 0 auto;
+  -webkit-box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6); //   transform: scale(1) translateX(0%) translateZ(0px);
+}
+
+.lemongrass-image {
+  background-image: url("/static/assets/lemongrass.jpg");
+  background-size: cover;
+}
+
+.bcit-portfolio-image {
+  background-image: url("/static/assets/workspace.jpg");
+  background-size: cover;
 }
 
 .btn {
-    cursor: pointer;
-    border-radius: $borderRadius;
-    padding: 10px 18px;
-    font-size: 1.0rem;
-    background-color: $red; // line-height: 1;
-    color: $white;
-    border: 0;
-    font-weight: bold;
-    transition: 0.3s;
-    letter-spacing: 0.05em;
+  cursor: pointer;
+  border-radius: $borderRadius;
+  padding: 10px 18px;
+  font-size: 1rem;
+  background-color: $red; // line-height: 1;
+  color: $white;
+  border: 0;
+  font-weight: bold;
+  transition: 0.3s;
+  letter-spacing: 0.05em;
 }
 
 .btn:hover {
-    -webkit-transform: translate3d(0, -5%, 0);
-    transform: translate3d(0, -5%, 0);
-    opacity: 1;
+  -webkit-transform: translate3d(0, -5%, 0);
+  transform: translate3d(0, -5%, 0);
+  opacity: 1;
 }

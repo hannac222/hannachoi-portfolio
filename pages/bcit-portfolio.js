@@ -6,7 +6,6 @@ const BcitPortfolio = () => (
       <div className="title">
         <h1>BCIT TWD Portfolio</h1>
         <p>Display projects from BCIT</p>
-        <button>Show me more</button>
       </div>
       <div className="main-image">
         <img src="/static/assets/workspace.jpg" alt="Work Space" />

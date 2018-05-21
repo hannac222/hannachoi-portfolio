@@ -4,12 +4,13 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 999;
   .name {
-    margin: 30px 20px auto 40px;
+    margin: 30px 0 auto 40px;
     letter-spacing: 0.1em;
   }
   .nav {
-    margin: 30px 20px 15px auto;
+    margin: 30px 40px 15px auto;
     a {
       letter-spacing: 0.1em;
       margin-right: 20px;
@@ -20,4 +21,8 @@
 .header a {
   text-decoration: none;
   color: $white;
+}
+
+.header a:last-child {
+  margin-right: 0;
 }
