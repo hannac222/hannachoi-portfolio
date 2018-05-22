@@ -2,6 +2,8 @@
 $backgroundColor: rgb(40, 40, 35);
 $white: #ffffff;
 $darkWhite: #eeeeee;
+$lightGrey: rgb(242, 244, 245);
+$bgWhite: #f9f9f9;
 $red: #ff4d5a;
 /**/
 
@@ -20,12 +22,12 @@ $borderRadius: 50px;
 
 // Placeholder
 %clearfix {
-  &:before,
-  &:after {
-    content: " ";
-    display: table;
-  }
-  &:after {
-    clear: both;
-  }
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
 }

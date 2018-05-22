@@ -1,17 +1,65 @@
+import React from "react";
 import Layout from "../components/layout";
 
 const Lemongrass = () => (
   <Layout>
-    <div className="wrapper">
-      <div className="title">
-        <h1>Lemongrass</h1>
-        <p>A Pictional Business Website Project from BCIT TWD Program</p>
+    <div className="wrapper-project">
+      <div className="page-top">
+        <div className="title">
+          <h1>Lemongrass</h1>
+          <p className="sub-title">A Fictional Business Website Project</p>
+        </div>
+        <img
+          className="banner-image"
+          src="/static/assets/lemongrass.jpg"
+          alt="Toast"
+        />
       </div>
-      <div className="banner-image">
-        <img src="/static/assets/lemongrass.jpg" alt="Toast" />
-      </div>
+      <section className="project-container">
+        <div className="bg-img" />
+        <div className="project-overview">
+          <ul>
+            <li>
+              <p>PROJECT</p>
+              <p>A fictional business website</p>
+            </li>
+            <li>
+              <p>Website</p>
+              <p>hchoi.bcitwebdeveloper.ca/lemongrass</p>
+            </li>
+            <li>
+              <p>OVERVIEW</p>
+              <p>
+                A responsive, including a palallax scrolling design website for
+                Mason Architects, a fictious architecture studio
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <img
+            className="lemongrass-image"
+            src="/static/assets/lemongrass.jpg"
+            alt="Toast"
+          />
+          <p>
+            A responsive, including a palallax scrolling design website for
+            Mason Architects, a fictious architecture studio
+          </p>
+        </div>
+      </section>
     </div>
   </Layout>
 );
 
-export default Lemongrass;
+class Wrapper extends React.Component {
+  componentDidMount() {
+    document.body.style.overflow = "auto";
+  }
+
+  render() {
+    return <Lemongrass />;
+  }
+}
+
+export default Wrapper;

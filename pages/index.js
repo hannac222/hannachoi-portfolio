@@ -33,7 +33,7 @@ const slides = [
 fullPageOptions.slides = slides;
 
 const Index = () => (
-  <div>
+  <div className="wrapper-index">
     <Layout>
       <Fullpage {...fullPageOptions} />
     </Layout>

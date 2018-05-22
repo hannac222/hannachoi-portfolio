@@ -4,15 +4,15 @@
 }
 
 .title {
-  position: absolute;
-  overflow: hidden;
-  top: 35%;
+  position: absolute; // overflow: hidden;
+  top: 50%;
   -webkit-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0); // z-index: 200;
   margin-left: 10%;
   letter-spacing: 0.1em;
   font-size: 23px;
-  z-index: 999;
+  z-index: 800;
+  text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
 }
 
 .description {
@@ -30,12 +30,12 @@
 }
 
 .lemongrass-image {
-  background-image: url("/static/assets/lemongrass.jpg");
+  background: url("/static/assets/lemongrass.jpg") no-repeat center;
   background-size: cover;
 }
 
 .bcit-portfolio-image {
-  background-image: url("/static/assets/workspace.jpg");
+  background: url("/static/assets/workspace.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -56,4 +56,8 @@
   -webkit-transform: translate3d(0, -5%, 0);
   transform: translate3d(0, -5%, 0);
   opacity: 1;
+}
+
+button:focus {
+  outline: none;
 }
