@@ -1,13 +1,13 @@
 // Common Style
 body {
-    background-color: $backgroundColor;
-    color: $white;
+  background-color: $color__backgroundColor;
+  color: $color__white;
 }
 
 .main {
-    // margin-left: $marginLeft;
+  // margin-left: $marginLeft;
 }
 
 .wrapper-index {
-    margin-top: $marginTop;
+  margin-top: $size__marginTop;
 }

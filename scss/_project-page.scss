@@ -1,9 +1,9 @@
 .wrapper-project {
-    margin-top: 0; //   position: relative;
+    background-color: $color__white;
     .page-top {
+        margin-top: 0; //   position: relative;
         margin: auto;
-        width: 100%;
-        height: 100vh;
+        width: 100%; // height: 100vh;
         .title {
             top: 80%;
             h1 {
@@ -19,28 +19,42 @@
             top: 0; // margin-top: 0;
         }
     }
-}
-
-.project-container {
-    margin: auto;
-    .bg-img {
-        width: 100%;
-        height: 70rem;
-        background: $lightGrey;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -100;
-    }
-    .project-overview {
-        margin-top: 7.2rem;
-        ul {
-            display: flex;
-            margin-bottom: 7.2rem;
+    .project-container {
+        margin: auto;
+        .bg-img {
+            width: 100%; //   height: 70rem;
+            background: $color__lightGrey; //   position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -100;
+        }
+        .project-overview {
+            padding-top: 7.2rem;
+            ul {
+                display: flex;
+                margin-bottom: 7.2rem;
+                margin: auto;
+                max-width: 1200px;
+                padding: 20px;
+                li {
+                    margin-right: 6.4rem;
+                    list-style: none;
+                    color: $color__fontblack;
+                }
+                li:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+        .project-detail {
+            .detail-img {
+                margin: 0 auto;
+                width: 100%;
+                height: 60rem;
+                background: url(/static/assets/hannachoi-lemongrass-overview.jpg) no-repeat center;
+                background-size: cover;
+                margin-top: 14.4rem; // opacity: 5;
+            }
         }
     }
-}
-
-li {
-    list-style: none;
 }

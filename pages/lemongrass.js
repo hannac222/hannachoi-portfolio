@@ -16,32 +16,29 @@ const Lemongrass = () => (
         />
       </div>
       <section className="project-container">
-        <div className="bg-img" />
-        <div className="project-overview">
-          <ul>
-            <li>
-              <p>PROJECT</p>
-              <p>A fictional business website</p>
-            </li>
-            <li>
-              <p>Website</p>
-              <p>hchoi.bcitwebdeveloper.ca/lemongrass</p>
-            </li>
-            <li>
-              <p>OVERVIEW</p>
-              <p>
-                A responsive, including a palallax scrolling design website for
-                Mason Architects, a fictious architecture studio
-              </p>
-            </li>
-          </ul>
+        <div className="bg-img">
+          <div className="project-overview">
+            <ul>
+              <li>
+                <p>PROJECT</p>
+                <p>A fictional business website</p>
+              </li>
+              <li>
+                <p>Website</p>
+                <p>hchoi.bcitwebdeveloper.ca/lemongrass</p>
+              </li>
+              <li>
+                <p>OVERVIEW</p>
+                <p>
+                  A responsive, including a palallax scrolling design website
+                  for Mason Architects, a fictious architecture studio
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div>
-          <img
-            className="lemongrass-image"
-            src="/static/assets/lemongrass.jpg"
-            alt="Toast"
-          />
+        <div className="project-detail">
+          <div className="detail-img" />
           <p>
             A responsive, including a palallax scrolling design website for
             Mason Architects, a fictious architecture studio

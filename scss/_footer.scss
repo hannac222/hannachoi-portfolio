@@ -1,6 +1,6 @@
 .social-icons {
   letter-spacing: 1em;
-  margin-left: $marginLeft + 40;
+  margin-left: $size__marginLeft + 40;
   z-index: 999;
   font-size: 23px;
   position: absolute;
@@ -8,5 +8,5 @@
 }
 
 .social-icons a {
-  color: $white;
+  color: $color__white;
 }
