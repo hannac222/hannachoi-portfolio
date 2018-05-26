@@ -20,12 +20,16 @@
   },
   "homepage": "https://github.com/hannac222/hannachoi-portfolio#readme",
   "dependencies": {
+    "@rematch/core": "^0.6.0",
     "@zeit/next-sass": "^0.2.0",
     "fullpage-react": "^3.0.31",
     "next": "^6.0.2",
     "node-sass": "^4.9.0",
     "prop-types": "^15.6.1",
     "react": "^16.3.2",
-    "react-dom": "^16.3.2"
+    "react-animated-css": "^1.0.4",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
   }
 }

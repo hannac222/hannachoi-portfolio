@@ -11,6 +11,10 @@ export default class MyDocument extends Document {
             integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
             crossOrigin="anonymous"
           />
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+          />
           <link rel="stylesheet" href="/_next/static/style.css" />
         </Head>
         <body>

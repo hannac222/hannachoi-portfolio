@@ -1,4 +1,5 @@
 import { Fullpage, Slide } from "fullpage-react";
+import { dispatch } from "@rematch/core";
 import Layout from "../components/layout";
 import Sidebar from "../components/sidebar";
 import Section01 from "../components/section01";
@@ -32,10 +33,14 @@ const slides = [
 ];
 fullPageOptions.slides = slides;
 
+const onSlideChangeEnd = (_, __, state) => {
+  dispatch.repaintSection.repaint(state.activeSlide);
+};
+
 const Index = () => (
   <div className="wrapper-index">
     <Layout>
-      <Fullpage {...fullPageOptions} />
+      <Fullpage {...fullPageOptions} onSlideChangeEnd={onSlideChangeEnd} />
     </Layout>
     <Sidebar />
   </div>
