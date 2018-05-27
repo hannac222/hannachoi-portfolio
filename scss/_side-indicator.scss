@@ -1,5 +1,39 @@
 .side-indicator {
-  p {
-    font-size: 24px;
-  }
+    // font-size: 24px;
+    //   position: fixed; //   font-size: 1rem;
+    //   bottom: 80px;
+    //   left: $size__marginLeft - 16;
+    //   line-height: 1;
+    //   letter-spacing: 0.3em;
+    //   z-index: 100;
+    // }
+    #fp-nav {
+        margin: 0;
+        -webkit-transform: translate3d(0, -50%, 0);
+        transform: translate3d(0, -50%, 0);
+        width: 40px;
+        left: 40px;
+        overflow: hidden;
+        z-index: 100;
+        position: fixed;
+        font-size: 1rem;
+        bottom: 80px;
+    }
+    #fp-nav ul li {
+        height: 3px;
+        margin: 0 0 40px;
+        width: 40px;
+    }
+    #fp-nav ul li:last-child {
+        margin-bottom: 0;
+    }
+    #fp-nav ul li span {
+        height: 12px;
+        width: 12px;
+        margin: -6px 0 0 -6px;
+        border-radius: 100%;
+    }
+    span {
+        width: 100%;
+    }
 }

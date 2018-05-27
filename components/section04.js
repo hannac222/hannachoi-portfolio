@@ -2,7 +2,7 @@ import Link from "next/link";
 import Footer from "../components/footer";
 
 const Section04 = () => (
-  <div className="wrapper">
+  <div className="wrapper" id="section4">
     <div className="title">
       <h1>Audra Rickkets Artist Portfolio</h1>
       <p className="description">Display projects from BCIT</p>

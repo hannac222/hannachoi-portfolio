@@ -11,7 +11,7 @@ const Lemongrass = () => (
         </div>
         <img
           className="banner-image"
-          src="/static/assets/lemongrass-banner-1.jpg"
+          src="/static/assets/lemongrass-banner.jpg"
           alt="Toast"
         />
       </div>
