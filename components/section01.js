@@ -3,14 +3,14 @@ import Footer from "../components/footer";
 import ScrollDown from "../components/scroll-down";
 
 const Section01 = ({ hideScrollDown }) => (
-  <div className="wrapper" id="section1">
+  <div className="wrapper-front" id="section01">
+    {/* <div className="bg-left" /> */}
     <div className="title">
-      <h1>I’m Hanna</h1>
-      <h3>A front end developer based in Vancouver, BC, Canada</h3>
+      <h1>HE</h1>
+      <h1 className="second-line">LLO.</h1>
+      {/* <div className="bg-half-left"/> */}
     </div>
-    <div className="main-image">
-      {/* <img src="/static/assets/smurff.png" alt="Profile" /> */}
-    </div>
+    <div className="bg-right" />
     {hideScrollDown === true ? false : <ScrollDown />}
     <Footer />
   </div>

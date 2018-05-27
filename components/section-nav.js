@@ -1,24 +1,24 @@
-const SideIndicator = () => (
-  <div className="side-indicator">
-    <div id="fp-nav" class="left">
+const SectionNav = () => (
+  <div className="section-nav-container">
+    <div id="section-nav" class="left">
       <ul>
         <li>
-          <a href="#section1">
+          <a href="#section01">
             <span>----</span>
           </a>
         </li>
         <li>
-          <a href="#section2">
+          <a href="#section02">
             <span>----</span>{" "}
           </a>
         </li>
         <li>
-          <a href="#section3">
+          <a href="#section03">
             <span>----</span>{" "}
           </a>
         </li>
         <li>
-          <a href="#section4">
+          <a href="#section04">
             <span>----</span>{" "}
           </a>
         </li>
@@ -27,4 +27,4 @@ const SideIndicator = () => (
   </div>
 );
 
-export default SideIndicator;
+export default SectionNav;

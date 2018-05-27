@@ -1,12 +1,12 @@
 .wrapper-project {
-    background-color: $color__white;
+    background-color: $colorBackground;
     .page-top {
         margin-top: 0; //   position: relative;
         margin: auto;
         width: 100%;
         .title {
             top: 80%;
-            color: $color__white;
+            color: $colorDarkWhite;
             h1 {
                 text-transform: uppercase;
             }
@@ -24,7 +24,7 @@
         margin: auto;
         .bg-img {
             width: 100%; //   height: 70rem;
-            background: $color__lightGrey; //   position: absolute;
+            background: $colorBgLightGrey; //   position: absolute;
             top: 0;
             left: 0;
             height: 80%;

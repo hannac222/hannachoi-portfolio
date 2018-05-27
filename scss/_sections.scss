@@ -1,3 +1,28 @@
+.wrapper-front {
+  background-color: $colorBtn;
+  margin: 0 45px 45px 45px;
+  height: 85vh;
+  z-index: -100;
+  .title {
+    h1 {
+      font-size: 140px;
+      .second-line {
+        margin-top: 0;
+      }
+    }
+  }
+  .bg-left {
+    // background-color: $colorBtn;
+  }
+  .bg-right {
+    background-color: $colorFpLightGrey;
+    left: 50%;
+    position: absolute; // padding: 50%;
+    height: 85vh;
+    right: 45px;
+  }
+}
+
 .wrapper {
   height: 100vh;
   width: 100%;
@@ -44,8 +69,8 @@
   border-radius: $borderRadius;
   padding: 10px 18px;
   font-size: 1rem;
-  background-color: $color__red; // line-height: 1;
-  color: $color__white;
+  background-color: $colorBtn; // line-height: 1;
+  color: $fontColorLight;
   border: 0;
   font-weight: bold;
   transition: 0.3s;

@@ -1,7 +1,10 @@
 import Link from "next/link";
+import { withRouter } from "next/router";
 
-const Header = () => (
-  <div className="header">
+const getPageName = pathname => pathname.substring(1);
+
+const Header = ({ router }) => (
+  <div className={`header page-${getPageName(router.pathname)}`}>
     <Link href="/">
       <a className="name">Hanna Choi</a>
     </Link>
@@ -12,4 +15,4 @@ const Header = () => (
     </div>
   </div>
 );
-export default Header;
+export default withRouter(Header);

@@ -1,12 +1,13 @@
 import { Fullpage, Slide } from "fullpage-react";
 import { dispatch } from "@rematch/core";
 import Layout from "../components/layout";
-import SideIndicator from "../components/side-indicator";
+import SideIndicator from "../components/section-nav";
 import Section01 from "../components/section01";
 import Section02 from "../components/section02";
 import Section03 from "../components/section03";
 import Section04 from "../components/section04";
 import "../styles.scss";
+import SectionNav from "../components/section-nav";
 
 const fullPageOptions = {
   // for mouse/wheel events
@@ -51,7 +52,7 @@ const Index = () => (
   <div className="wrapper-index">
     <Layout>
       <Fullpage {...fullPageOptions} onSlideChangeEnd={onSlideChangeEnd} />
-      <SideIndicator />
+      <SectionNav />
     </Layout>
   </div>
 );

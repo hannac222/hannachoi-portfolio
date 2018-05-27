@@ -6,7 +6,7 @@ import Link from "next/link";
 const SECTION_NUMBER = 2;
 
 const Lemongrass = ({ isVisible }) => (
-  <div className="wrapper" id="section2">
+  <div className="wrapper" id="section02">
     <div className="title">
       <Animated
         animationIn="fadeInLeft"
