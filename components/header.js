@@ -6,11 +6,8 @@ const Header = () => (
       <a className="name">Hanna Choi</a>
     </Link>
     <div className="nav">
-      <Link href="/work">
-        <a>Work</a>
-      </Link>
-      <Link href="/">
-        <a>About</a>
+      <Link href="/about">
+        <a>About Me</a>
       </Link>
     </div>
   </div>

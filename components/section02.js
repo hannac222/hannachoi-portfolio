@@ -11,7 +11,7 @@ const Lemongrass = ({ isVisible }) => (
       <Animated
         animationIn="fadeInLeft"
         isVisible={isVisible}
-        style={setAnimationDuration("2.5s")}
+        style={setAnimationDuration("2.0s")}
       >
         <h1>Lemongrass</h1>
       </Animated>
@@ -29,7 +29,7 @@ const Lemongrass = ({ isVisible }) => (
 );
 
 const mapState = state => ({
-  isVisible: state.repaintSection === SECTION_NUMBER - 1
+  isVisible: state.repaintSection >= SECTION_NUMBER - 1
 });
 
 export default connect(mapState)(Lemongrass);

@@ -1,7 +1,7 @@
-const Sidebar = () => (
+const ScrollDown = () => (
   <div className="scroll-down">
     <p>Scrolldown</p>
   </div>
 );
 
-export default Sidebar;
+export default ScrollDown;
