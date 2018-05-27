@@ -11,7 +11,7 @@ const Lemongrass = () => (
         </div>
         <img
           className="banner-image"
-          src="/static/assets/lemongrass.jpg"
+          src="/static/assets/lemongrass-banner-1.jpg"
           alt="Toast"
         />
       </div>
@@ -52,6 +52,7 @@ const Lemongrass = () => (
 class Wrapper extends React.Component {
   componentDidMount() {
     document.body.style.overflow = "auto";
+    document.documentElement.style.overflow = "auto";
   }
 
   render() {

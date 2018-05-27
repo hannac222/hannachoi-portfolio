@@ -1,11 +1,12 @@
 // Colors
-$color__backgroundColor: rgb(40, 40, 35);
+$color__backgroundColor: #ffffff; //rgb(40, 40, 35);
 $color__white: #ffffff;
 $color__darkWhite: #eeeeee;
 $color__lightGrey: rgb(242, 244, 245);
 $color__bgWhite: #f9f9f9;
 $color__red: #ff4d5a;
-$color__fontblack: #072142;
+$color__mainFont: #072142;
+$color__font: #000000;
 /**/
 
 // Sizes
@@ -23,12 +24,12 @@ $borderRadius: 50px;
 
 // Placeholder
 %clearfix {
-  &:before,
-  &:after {
-    content: " ";
-    display: table;
-  }
-  &:after {
-    clear: both;
-  }
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
 }

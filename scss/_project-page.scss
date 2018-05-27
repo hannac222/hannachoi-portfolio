@@ -3,9 +3,10 @@
     .page-top {
         margin-top: 0; //   position: relative;
         margin: auto;
-        width: 100%; // height: 100vh;
+        width: 100%;
         .title {
             top: 80%;
+            color: $color__white;
             h1 {
                 text-transform: uppercase;
             }
@@ -26,6 +27,7 @@
             background: $color__lightGrey; //   position: absolute;
             top: 0;
             left: 0;
+            height: 80%;
             z-index: -100;
         }
         .project-overview {
@@ -38,8 +40,7 @@
                 padding: 20px;
                 li {
                     margin-right: 6.4rem;
-                    list-style: none;
-                    color: $color__fontblack;
+                    list-style: none; // color: $color__fontblack;
                 }
                 li:last-child {
                     margin-right: 0;
@@ -51,7 +52,7 @@
                 margin: 0 auto;
                 width: 100%;
                 height: 60rem;
-                background: url(/static/assets/hannachoi-lemongrass-overview.jpg) no-repeat center;
+                background: url(/static/assets/lemongrass-overview-hannachoi.jpg) no-repeat center;
                 background-size: cover;
                 margin-top: 14.4rem; // opacity: 5;
             }

@@ -11,7 +11,7 @@ import "../styles.scss";
 const fullPageOptions = {
   // for mouse/wheel events
   // represents the level of force required to generate a slide change on non-mobile, 10 is default
-  scrollSensitivity: 3,
+  scrollSensitivity: 5,
 
   // for touchStart/touchEnd/mobile scrolling
   // represents the level of force required to generate a slide change on mobile, 10 is default
