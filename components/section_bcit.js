@@ -1,20 +1,43 @@
+import { connect } from "react-redux";
+import { Animated } from "react-animated-css";
+import { setAnimationDuration } from "../lib/utils";
 import Link from "next/link";
 import Footer from "../components/footer";
 
-const Section_Bcit = () => (
+const SECTION_NUMBER = 3;
+
+const Section_Bcit = ({ isVisible }) => (
   <div className="wrapper">
     <div className="title">
-      <h1>BCIT TWD Portfolio</h1>
-      <p className="description">Display projects from BCIT</p>
-      <Link href="/bcit-portfolio">
-        <button className="btn">Show me more</button>
-      </Link>
+      <Animated
+        animationIn="fadeInLeft"
+        isVisible={isVisible}
+        style={setAnimationDuration("1.0s")}
+      >
+        <h1>BCIT TWD Portfolio</h1>
+        <p>Projects and assignments from BCIT</p>
+        <Link href="/bcit-portfolio">
+          <a className="btn">Show me more</a>
+        </Link>
+      </Animated>
     </div>
-    <Link href="/bcit-portfolio">
-      <a className="featured-image bcit-portfolio-image" />
-    </Link>
+    <Animated
+      animationIn="zoomIn"
+      isVisible={isVisible}
+      style={setAnimationDuration("1.7s")}
+    >
+      <Link href="/bcit-portfolio">
+        <a className="featured-image bcit-portfolio-image">
+          <span />
+        </a>
+      </Link>
+    </Animated>
     <Footer />
   </div>
 );
 
-export default Section_Bcit;
+const mapState = state => ({
+  isVisible: state.repaintSection >= SECTION_NUMBER - 1
+});
+
+export default connect(mapState)(Section_Bcit);

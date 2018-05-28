@@ -13,10 +13,10 @@ const Section_Lemon = ({ isVisible }) => (
         isVisible={isVisible}
         style={setAnimationDuration("1.0s")}
       >
-        <h1>Lemongrass</h1>
+        <h1 id="lemonTilte">Lemongrass</h1>
         <p>A Fictional Business Website Project</p>
         <Link href="/lemongrass">
-          <button className="btn">Show me more</button>
+          <a className="btn">Show me more</a>
         </Link>
       </Animated>
     </div>
