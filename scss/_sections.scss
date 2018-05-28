@@ -1,31 +1,37 @@
-.wrapper-front {
+.wrapper-home {
   background-color: $colorBtn;
-  margin: 0 45px 45px 45px;
-  height: 85vh;
+  margin: 0 40px 40px 40px;
+  height: 84vh;
   z-index: -100;
   .title {
+    margin: 0;
+    top: 50%;
+    left: 50%; //width: 50%;
+    //display: block;
+    transform: translate(-50%, -50%);
     h1 {
-      font-size: 140px;
-      .second-line {
-        margin-top: 0;
+      font-size: 11rem;
+      margin: 0;
+      text-transform: uppercase;
+      span {
+        // margin-top: -10;
+        color: $colorBtn;
       }
     }
-  }
-  .bg-left {
-    // background-color: $colorBtn;
   }
   .bg-right {
     background-color: $colorFpLightGrey;
     left: 50%;
     position: absolute; // padding: 50%;
-    height: 85vh;
-    right: 45px;
+    height: 84vh;
+    right: 40px;
   }
 }
 
 .wrapper {
   height: 100vh;
-  width: 100%;
+  width: 100%; //background-color: grey;
+  margin: 0 45px 0 45px;
 }
 
 .title {
@@ -38,20 +44,25 @@
   font-size: 23px;
   z-index: 800;
   text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
-}
-
-.description {
-  font-size: 18px;
+  p {
+    font-size: 18px;
+  }
 }
 
 .featured-image {
   display: block;
   position: relative;
-  width: 53.125%;
-  height: 74.81%;
-  margin: 0 8% 0 auto;
+  width: 50%;
+  height: 65%;
+  margin: 2% 8% 0 auto;
   -webkit-box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6);
-  box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6); //   transform: scale(1) translateX(0%) translateZ(0px);
+  box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6); //transform: scale(1) translateX(0%) translateZ(0px);
+  span {
+    display: block;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+  }
 }
 
 .lemongrass-image {

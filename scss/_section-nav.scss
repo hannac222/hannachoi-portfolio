@@ -1,39 +1,40 @@
 .section-nav-container {
-  // font-size: 24px;
-  //   position: fixed; //   font-size: 1rem;
-  //   bottom: 80px;
-  //   left: $size__marginLeft - 16;
-  //   line-height: 1;
-  //   letter-spacing: 0.3em;
-  //   z-index: 100;
-  // }
-  #section-nav {
     margin: 0;
+    margin-left: 20px;
     -webkit-transform: translate3d(0, -50%, 0);
     transform: translate3d(0, -50%, 0);
-    width: 40px;
     left: 40px;
-    overflow: hidden;
     z-index: 100;
     position: fixed;
     font-size: 1rem;
-    bottom: 80px;
+    top: 50%;
     ul {
-      text-decoration: none;
-      li {
-        height: 3px;
-        margin: 0 0 40px;
-        width: 40px;
-        span {
-          height: 12px;
-          width: 12px;
-          margin: -6px 0 0 -6px;
-          border-radius: 100%;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li {
+            height: 3px;
+            margin: 0 0 40px;
+            a {
+                background: $fontColorDark;
+                width: 24px;
+                height: 100%;
+                cursor: pointer;
+                text-decoration: none;
+                display: block;
+                position: relative;
+            }
         }
-      }
-      li:last-child {
-        margin-bottom: 0;
-      }
+        li:last-child {
+            margin-bottom: 0;
+        }
+        li.active {
+            a {
+                width: 45px;
+                -webkit-transition: 0.3s;
+                -o-transition: 0.3s;
+                transition: 0.3s;
+            }
+        }
     }
-  }
 }

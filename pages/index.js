@@ -2,38 +2,39 @@ import { Fullpage, Slide } from "fullpage-react";
 import { dispatch } from "@rematch/core";
 import Layout from "../components/layout";
 import SideIndicator from "../components/section-nav";
-import Section01 from "../components/section01";
-import Section02 from "../components/section02";
-import Section03 from "../components/section03";
-import Section04 from "../components/section04";
+import Section_Home from "../components/section_home";
+import Section_Lemon from "../components/section_lemon";
+import Section_Bcit from "../components/section_bcit";
+import Section_Audra from "../components/section_audra";
 import "../styles.scss";
 import SectionNav from "../components/section-nav";
 
 const fullPageOptions = {
   // for mouse/wheel events
   // represents the level of force required to generate a slide change on non-mobile, 10 is default
-  scrollSensitivity: 5,
+  scrollSensitivity: 7,
 
   // for touchStart/touchEnd/mobile scrolling
   // represents the level of force required to generate a slide change on mobile, 10 is default
   touchSensitivity: 7,
   scrollSpeed: 500,
   hideScrollBars: true,
-  enableArrowKeys: true
+  enableArrowKeys: true,
+  navigation: true
 };
 
 const slides = [
   <Slide>
-    <Section01 />
+    <Section_Home />
   </Slide>,
   <Slide>
-    <Section02 />
+    <Section_Lemon />
   </Slide>,
   <Slide>
-    <Section03 />
+    <Section_Bcit />
   </Slide>,
   <Slide>
-    <Section04 />
+    <Section_Audra />
   </Slide>
 ];
 fullPageOptions.slides = slides;

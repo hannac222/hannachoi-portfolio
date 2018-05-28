@@ -1,24 +1,27 @@
 .scroll-down {
-    position: fixed;
-    font-size: 1rem;
-    bottom: 80px;
-    left: $sizeMarginLeft - 16;
-    line-height: 1;
-    letter-spacing: 0.3em;
-    -webkit-writing-mode: vertical-rl;
-    -ms-writing-mode: tb-rl;
-    writing-mode: vertical-rl;
-    z-index: 100;
+  position: fixed;
+  font-size: 1rem;
+  bottom: 70px;
+  left: $sizeMarginLeft + 20;
+  line-height: 1;
+  letter-spacing: 0.2em;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  z-index: 100;
+  p {
+    margin: 0;
+  }
 }
 
 .scroll-down:after {
-    content: "";
-    width: 2px;
-    height: 64px;
-    background: $fontColorDark;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    bottom: -80px;
+  content: "";
+  width: 2px;
+  height: 60px;
+  background: $fontColorDark;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: -80px;
 }

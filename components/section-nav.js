@@ -1,30 +1,35 @@
-const SectionNav = () => (
+import { Fullpage } from "fullpage-react";
+import { connect } from "react-redux";
+
+const SectionNav = ({ activeSection }) => (
   <div className="section-nav-container">
-    <div id="section-nav" class="left">
-      <ul>
-        <li>
-          <a href="#section01">
-            <span>----</span>
-          </a>
-        </li>
-        <li>
-          <a href="#section02">
-            <span>----</span>{" "}
-          </a>
-        </li>
-        <li>
-          <a href="#section03">
-            <span>----</span>{" "}
-          </a>
-        </li>
-        <li>
-          <a href="#section04">
-            <span>----</span>{" "}
-          </a>
-        </li>
-      </ul>
-    </div>
+    <ul>
+      <li className={activeSection === 0 ? "active" : ""}>
+        <a onClick={Fullpage.changeFullpageSlide.bind(null, 0)}>
+          <span />
+        </a>
+      </li>
+      <li className={activeSection === 1 ? "active" : ""}>
+        <a onClick={Fullpage.changeFullpageSlide.bind(null, 1)}>
+          <span />
+        </a>
+      </li>
+      <li className={activeSection === 2 ? "active" : ""}>
+        <a onClick={Fullpage.changeFullpageSlide.bind(null, 2)}>
+          <span />
+        </a>
+      </li>
+      <li className={activeSection === 3 ? "active" : ""}>
+        <a onClick={Fullpage.changeFullpageSlide.bind(null, 3)}>
+          <span />
+        </a>
+      </li>
+    </ul>
   </div>
 );
 
-export default SectionNav;
+const mapState = state => ({
+  activeSection: state.repaintSection
+});
+
+export default connect(mapState)(SectionNav);
