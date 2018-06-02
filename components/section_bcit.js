@@ -17,7 +17,9 @@ const Section_Bcit = ({ isVisible }) => (
         <h1>BCIT TWD Portfolio</h1>
         <p>Projects and assignments from BCIT</p>
         <Link href="/bcit-portfolio">
-          <a className="btn">Show me more</a>
+          <div className="btn-wrapper">
+            <a className="btn">Show me more</a>
+          </div>
         </Link>
       </Animated>
     </div>
@@ -32,7 +34,6 @@ const Section_Bcit = ({ isVisible }) => (
         </a>
       </Link>
     </Animated>
-    <Footer />
   </div>
 );
 

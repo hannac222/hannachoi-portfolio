@@ -1,93 +1,103 @@
-// .section-nav-container {
-    //     margin: 0;
-    //     margin-left: 20px;
-    //     -webkit-transform: translate3d(0, -50%, 0);
-    //     transform: translate3d(0, -50%, 0);
-    //     left: 40px;
-    //     z-index: 100;
-    //     position: fixed;
-    //     font-size: 1rem;
-    //     top: 50%;
-    //     ul {
-    //         list-style: none;
-    //         padding: 0;
-    //         margin: 0;
-    //         li {
-    //             height: 3px;
-    //             margin: 0 0 40px;
-    //             a {
-    //                 background: $fontColorDark;
-    //                 width: 24px;
-    //                 height: 100%;
-    //                 cursor: pointer;
-    //                 text-decoration: none;
-    //                 display: block;
-    //                 position: relative;
-    //             }
-    //         }
-    //         li:last-child {
-    //             margin-bottom: 0;
-    //         }
-    //         li.active {
-    //             a {
-    //                 width: 45px;
-    //                 -webkit-transition: 0.3s;
-    //                 -o-transition: 0.3s;
-    //                 transition: 0.3s;
-    //             }
-    //         }
-    //     }
-    // }
+// .section-nassv-container {
+//   margin: 0;
+//   margin-left: 20px;
+//   -webkit-transform: translate3d(0, -50%, 0);
+//   transform: translate3d(0, -50%, 0);
+//   left: 40px;
+//   z-index: 100;
+//   position: fixed;
+//   font-size: 1rem;
+//   top: 50%;
+//   ul {
+//     list-style: none;
+//     padding: 0;
+//     margin: 0;
+//     li {
+//       height: 3px;
+//       margin: 0 0 40px;
+//       a {
+//         background: $fontColorDark;
+//         width: 24px;
+//         height: 100%;
+//         cursor: pointer;
+//         text-decoration: none;
+//         display: block;
+//         position: relative;
+//       }
+//     }
+//     li:last-child {
+//       margin-bottom: 0;
+//     }
+//     li.active {
+//       a {
+//         width: 45px;
+//         -webkit-transition: 0.3s;
+//         -o-transition: 0.3s;
+//         transition: 0.3s;
+//       }
+//     }
+//   }
+// }
 
 .section-nav-container {
-    position: fixed;
-    font-size: 1rem;
-    top: auto;
-    bottom: 20px;
-    width: auto;
-    transform: translate3d(-50%, 0, 0); // z-index: 100;
-    @media screen and (min-width: $tablet-portrait) {
-        -webkit-transform: translate3d(0, -50%, 0);
-        transform: translate3d(0, -50%, 0); // z-index: 100;
-        top: 50%;
-        margin: 0;
-        margin-left: 20px;
-        left: 40px;
+  position: fixed; //   display: block;
+  font-size: 1rem;
+  bottom: 20px;
+  top: auto;
+  width: auto;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+  z-index: 100;
+  @media screen and (min-width: $tablet-portrait) {
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0); // z-index: 100;
+    top: 50%;
+    margin: 0;
+    margin-left: 20px;
+    left: 40px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+    li {
+      margin: 0 12px;
+      height: auto;
+      width: 14px; //   position: relative;
+      @media screen and (min-width: $tablet-portrait) {
+        height: 3px;
+        margin: 0 0 40px;
+      }
+      a {
+        cursor: pointer;
+        background: $fontColorDark;
+        display: block;
+        position: relative;
+        text-decoration: none;
+        width: 2px;
+        height: 16px;
+        @media screen and (min-width: $tablet-portrait) {
+          width: 24px;
+          height: 100%;
+        }
+      }
     }
-    ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        align-items: flex-end;
-        li {
-            @media screen and (min-width: $tablet-portrait) {
-                height: 3px;
-                margin: 0 0 40px;
-            }
-            a {
-                width: 2px;
-                height: 32px;
-                @media screen and (min-width: $tablet-portrait) {
-                    background: $fontColorDark;
-                    width: 24px;
-                    height: 100%;
-                    cursor: pointer;
-                    text-decoration: none;
-                    display: block;
-                    position: relative;
-                }
-            }
-        }
-        li:last-child {
-            margin-bottom: 0;
-        }
-        li.active {
-            a {
-                width: 45px;
-                -webkit-transition: 0.3s;
-                -o-transition: 0.3s;
-                transition: 0.3s;
-            }
-        }
+    li:last-child {
+      margin-bottom: 0;
     }
+    li.active {
+      a {
+        width: 2px;
+        height: 32px;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        @media screen and (min-width: $tablet-portrait) {
+          width: 45px;
+        }
+      }
+    }
+  }
 }

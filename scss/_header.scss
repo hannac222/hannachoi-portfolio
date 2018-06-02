@@ -1,45 +1,47 @@
 // Lemongrass header style
 .header.page-lemongrass a {
-    color: $fontColorLight;
+  color: $fontColorLight;
 }
 
 // Index style
 .header {
-    display: flex; //   font-size: 1.6rem;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 900;
-    padding: 20px 6.25%;
-    letter-spacing: 0.1em;
+  display: flex; //   font-size: 1.6rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 900;
+  padding: 20px 6.25%;
+  letter-spacing: 0.1em;
+  font-size: 1.6rem;
+  @media screen and (min-width: $tablet-portrait) {
+    font-size: 23px;
+  }
+  .name {
+    margin: 0;
     @media screen and (min-width: $tablet-portrait) {
-        font-size: 23px;
+      margin: 30px 0 auto 40px; // font-size: 23px;
     }
-    .name {
-        @media screen and (min-width: $tablet-portrait) {
-            margin: 30px 0 auto 40px; // font-size: 23px;
-        }
+  }
+  .nav {
+    margin-left: auto;
+    @media screen and (min-width: $tablet-portrait) {
+      margin: 30px 40px 15px auto;
     }
-    .nav {
-        margin-left: auto;
-        @media screen and (min-width: $tablet-portrait) {
-            margin: 30px 40px 15px auto;
-        }
-        a {
-            //   letter-spacing: 0.1em; // margin-right: 20px;
-        }
+    a {
+      margin: 0; //   letter-spacing: 0.1em; // margin-right: 20px;
     }
+  }
 }
 
 .header a {
-    text-decoration: none;
-    color: $fontColorDark;
+  text-decoration: none;
+  color: $fontColorDark;
 }
 
 .nav a:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .nav a:last-child {
-    // margin-right: 0;
+  // margin-right: 0;
 }
