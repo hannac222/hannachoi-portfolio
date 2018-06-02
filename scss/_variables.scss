@@ -15,6 +15,7 @@ $fontColorLight: #ffffff;
 
 // Size
 $borderRadius: 50px;
+$sizeMarginTopMobile: 64px;
 $sizeMarginTop: 79px;
 $sizeMarginLeft: 40px;
 /**/
@@ -48,12 +49,12 @@ $desktop: 1090px;
 
 // Placeholder
 %clearfix {
-    &:before,
-    &:after {
-        content: " ";
-        display: table;
-    }
-    &:after {
-        clear: both;
-    }
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
 }

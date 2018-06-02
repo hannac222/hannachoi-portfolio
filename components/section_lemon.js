@@ -16,7 +16,9 @@ const Section_Lemon = ({ isVisible }) => (
         <h1 id="lemonTilte">Lemongrass</h1>
         <p>A Fictional Business Website Project</p>
         <Link href="/lemongrass">
-          <a className="btn">Show me more</a>
+          <div className="btn-wrapper">
+            <a className="btn">Show me more</a>
+          </div>
         </Link>
       </Animated>
     </div>
