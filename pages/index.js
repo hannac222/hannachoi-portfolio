@@ -51,7 +51,7 @@ const onSlideChangeEnd = (_, __, state) => {
 
 const Index = () => (
   <div className="wrapper-index">
-    <Layout>
+    <Layout hideFooter>
       <Fullpage {...fullPageOptions} onSlideChangeEnd={onSlideChangeEnd} />
       <SectionNav />
     </Layout>

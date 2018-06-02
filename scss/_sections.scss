@@ -1,103 +1,103 @@
 .wrapper-home {
-  background-color: $colorBtn;
-  margin: 0 40px 40px 40px;
-  height: 84vh;
-  z-index: -100;
-  .title {
-    margin: 0;
-    top: 50%;
-    left: 50%; //width: 50%;
-    //display: block;
-    transform: translate(-50%, -50%);
-    h1 {
-      font-size: 11rem;
-      margin: 0;
-      text-transform: uppercase;
-      span {
-        // margin-top: -10;
-        color: $colorBtn;
-      }
-    }
-  }
-  .bg-right {
-    background-color: $colorFpLightGrey;
-    left: 50%;
-    position: absolute; // padding: 50%;
+    background-color: $colorBtn;
+    margin: 0 40px 40px 40px;
     height: 84vh;
-    right: 40px;
-  }
+    z-index: -100;
+    .title {
+        margin: 0;
+        top: 50%;
+        left: 50%; //width: 50%;
+        //display: block;
+        transform: translate(-50%, -50%);
+        h1 {
+            font-size: 11rem;
+            margin: 0;
+            text-transform: uppercase;
+            span {
+                // margin-top: -10;
+                color: $colorBtn;
+            }
+        }
+    }
+    .bg-right {
+        background-color: $colorFpLightGrey;
+        left: 50%;
+        position: absolute; // padding: 50%;
+        height: 84vh;
+        right: 40px;
+    }
 }
 
 .wrapper {
-  height: 100vh;
-  width: 100%; //background-color: grey;
-  margin: 0 45px 0 45px;
+    height: 100vh;
+    width: 100%; //background-color: grey;
+    margin: 0 45px 0 45px;
 }
 
 .title {
-  position: absolute; // overflow: hidden;
-  top: 40%;
-  -webkit-transform: translate3d(0, -50%, 0);
-  transform: translate3d(0, -50%, 0); // z-index: 200;
-  margin-left: 10%;
-  letter-spacing: 0.1em;
-  font-size: 23px;
-  z-index: 800;
-  text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
-  #lemonTilte {
-    text-transform: uppercase;
-  }
-  p {
-    font-size: 18px;
-  }
-  a {
-    text-decoration: none;
-  }
-  .btn {
-    cursor: pointer;
-    display: inline-block;
-    border-radius: $borderRadius;
-    padding: 12px 18px;
-    font-size: 1rem;
-    background-color: $colorBtn; // line-height: 1;
-    color: $fontColorLight;
-    border: 0;
-    font-weight: bold;
-    transition: 0.3s;
-    letter-spacing: 0.05em;
-  }
-  .btn:hover {
-    -webkit-transform: translate3d(0, -5%, 0);
-    transform: translate3d(0, -5%, 0);
-    opacity: 1;
-  }
-  .btn:focus {
-    outline: none;
-  }
+    position: absolute; // overflow: hidden;
+    top: 40%;
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0); // z-index: 200;
+    margin-left: 10%;
+    letter-spacing: 0.1em;
+    font-size: 23px;
+    z-index: 800;
+    text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
+    #lemonTilte {
+        text-transform: uppercase;
+    }
+    p {
+        font-size: 18px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .btn {
+        cursor: pointer;
+        display: inline-block;
+        border-radius: $borderRadius;
+        padding: 12px 18px;
+        font-size: 1rem;
+        background-color: $colorBtn; // line-height: 1;
+        color: $fontColorLight;
+        border: 0;
+        font-weight: bold;
+        transition: 0.3s;
+        letter-spacing: 0.05em;
+    }
+    .btn:hover {
+        -webkit-transform: translate3d(0, -5%, 0);
+        transform: translate3d(0, -5%, 0);
+        opacity: 1;
+    }
+    .btn:focus {
+        outline: none;
+    }
 }
 
 .featured-image {
-  display: block;
-  position: relative;
-  width: 50%;
-  height: 65%;
-  margin: 2% 8% 0 auto;
-  -webkit-box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6);
-  box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6); //transform: scale(1) translateX(0%) translateZ(0px);
-  span {
     display: block;
-    height: 70vh;
-    width: 100%;
     position: relative;
-  }
+    width: 50%;
+    height: 65%;
+    margin: 2% 8% 0 auto;
+    -webkit-box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6); //transform: scale(1) translateX(0%) translateZ(0px);
+    span {
+        display: block;
+        height: 70vh;
+        width: 100%;
+        position: relative;
+    }
 }
 
 .lemongrass-image {
-  background: url("/static/assets/lemongrass.jpg") no-repeat center;
-  background-size: cover;
+    background: url("/static/assets/lemongrass.jpg") no-repeat center;
+    background-size: cover;
 }
 
 .bcit-portfolio-image {
-  background: url("/static/assets/workspace.jpg") no-repeat center;
-  background-size: cover;
+    background: url("/static/assets/workspace.jpg") no-repeat center;
+    background-size: cover;
 }

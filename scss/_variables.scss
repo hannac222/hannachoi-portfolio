@@ -27,22 +27,33 @@ $ease2: cubic-bezier(0.56, 0, 0.265, 1);
 $ease3: cubic-bezier(1, 0, 0, 1);
 /**/
 
-// Media
-$mobile: 480px;
-$small: 767px;
-$medium: 992px;
-$large: 1200px;
-$vlarge: 1600px;
+/*--------------------------------------------------------------
+# Mobile Sizes
+iPhone5 mobile : 320 * 568
+iPhone5 mobile(landscape) : 568 * 320
+iPhone8Plus mobile : 414 * 736
+iPhone8Plus mobile(landscape) : 736 * 414
+iPad : 768 * 1024
+iPad(landscape) : 1024 * 768
+iPad Pro : 1024 * 1366
+iPad Pro(landscape) : 1366 * 1024
+--------------------------------------------------------------*/
+
+// Break Point based on min-width
+$mobile-landscape: 560px;
+$tablet-portrait: 760px;
+$tablet-landscape: 1020px;
+$desktop: 1090px;
 /**/
 
 // Placeholder
 %clearfix {
-  &:before,
-  &:after {
-    content: " ";
-    display: table;
-  }
-  &:after {
-    clear: both;
-  }
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
 }
