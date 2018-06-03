@@ -1,0 +1,15 @@
+.page-nav {
+    display: flex;
+    justify-content: space-around;
+    .previous,
+    .next {
+        padding: 20px;
+        width: 50%;
+        text-decoration: none;
+        color: $fontColorDark;
+        border: 1px solid black;
+    }
+    .next {
+        align-self: flex-end;
+    }
+}

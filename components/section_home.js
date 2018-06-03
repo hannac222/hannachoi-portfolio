@@ -5,7 +5,7 @@ import ScrollDown from "../components/scroll-down";
 const Section_Home = ({ hideScrollDown }) => (
   <div className="wrapper-home">
     <div className="intro">
-      <h1 className="hello-he">he</h1>
+      <h1 className="hello-he">hey</h1>
       <h1 className="hello-llo">
         llo<span>.</span>
       </h1>
