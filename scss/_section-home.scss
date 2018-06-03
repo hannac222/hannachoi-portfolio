@@ -1,43 +1,52 @@
 // Home Section
 .wrapper-home {
-  background-color: $colorBtn;
-  top: 0;
-  height: 100%;
-  z-index: -100;
-  @media screen and (min-width: $tablet-portrait) {
-    margin: $sizeMarginLeft;
-    margin-top: $sizeMarginTop;
-    height: 84vh;
-  }
-  .intro {
-    position: absolute;
-    margin: 0;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 900;
-    h1 {
-      text-transform: uppercase;
-      margin: 0;
-      font-size: 9rem;
-      @media screen and (min-width: $tablet-portrait) {
-        font-size: 11rem;
-      }
-      span {
-        color: $colorBtn;
-      }
-    }
-  }
-  .bg-right {
-    background-color: $colorFpLightGrey;
-    position: absolute;
-    left: 50%;
-    padding: 50%;
+    background-color: $colorBtn;
+    top: 0;
     height: 100%;
+    z-index: -100;
     @media screen and (min-width: $tablet-portrait) {
-      height: 84vh;
-      right: 40px;
-      padding: 0;
+        margin: $sizeMarginLeft;
+        margin-top: $sizeMarginTop;
+        height: 84vh;
     }
-  }
+    @media screen and (min-width: $desktop) {
+        height: 85vh;
+    }
+    .intro {
+        position: absolute;
+        margin: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 900;
+        h1 {
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 9rem;
+            @media screen and (min-width: $tablet-portrait) {
+                font-size: 11rem;
+            }
+            @media screen and (min-width: $desktop) {
+                font-size: 16rem;
+            }
+            span {
+                color: $colorBtn;
+            }
+        }
+    }
+    .bg-right {
+        background-color: $colorFpLightGrey;
+        position: absolute;
+        left: 50%;
+        padding: 50%;
+        height: 100%;
+        @media screen and (min-width: $tablet-portrait) {
+            height: 84vh;
+            right: 40px;
+            padding: 0;
+        }
+        @media screen and (min-width: $desktop) {
+            height: 85vh;
+        }
+    }
 }
