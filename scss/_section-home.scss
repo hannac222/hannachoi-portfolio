@@ -5,7 +5,8 @@
   height: 100%;
   z-index: -100;
   @media screen and (min-width: $tablet-portrait) {
-    margin: 0 40px 40px 40px;
+    margin: $sizeMarginLeft;
+    margin-top: $sizeMarginTop;
     height: 84vh;
   }
   .intro {
@@ -36,6 +37,7 @@
     @media screen and (min-width: $tablet-portrait) {
       height: 84vh;
       right: 40px;
+      padding: 0;
     }
   }
 }
