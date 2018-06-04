@@ -5,6 +5,7 @@ $colorBgLightGrey: rgb(242, 244, 245);
 $colorFpLightGrey: #f8f8f8;
 $colorBgWhite: #f9f9f9;
 $colorBtn: #ff4d5a;
+$colorLine: #27394d;
 /**/
 
 //Font Colors
@@ -19,6 +20,11 @@ $sizeMarginTop: 79px;
 $sizeMarginLeft: 40px;
 /**/
 
+// Fonts
+// font-family: 'Roboto Mono', monospace;
+// font-family: 'Maven Pro', sans-serif;
+// font-family: 'Rajdhani', sans-serif;
+// font-family: 'Source Code Pro', monospace;
 // Animation
 $anim: 250ms ease-in-out;
 $transitionDuration: 500ms;
@@ -51,12 +57,12 @@ $desktop: 1090px;
 
 // Placeholder
 %clearfix {
-    &:before,
-    &:after {
-        content: " ";
-        display: table;
-    }
-    &:after {
-        clear: both;
-    }
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
 }

@@ -16,7 +16,7 @@ const fullPageOptions = {
 
   // for touchStart/touchEnd/mobile scrolling
   // represents the level of force required to generate a slide change on mobile, 10 is default
-  touchSensitivity: 7,
+  touchSensitivity: 6,
   scrollSpeed: 500,
   hideScrollBars: true,
   enableArrowKeys: true,
@@ -52,6 +52,7 @@ const onSlideChangeEnd = (_, __, state) => {
 const Index = () => (
   <div className="wrapper-index">
     <Layout hideFooter>
+      {/* Children of Layout */}
       <Fullpage {...fullPageOptions} onSlideChangeEnd={onSlideChangeEnd} />
       <SectionNav />
     </Layout>

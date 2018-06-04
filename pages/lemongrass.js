@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import PageNav from "../components/page-nav";
 
 const Lemongrass = () => (
-  <Layout>
+  <Layout className="page-lemongrass">
     <div className="wrapper-project">
       <div className="page-top">
         <span />

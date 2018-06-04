@@ -1,6 +1,6 @@
 const Footer = () => (
   <div className="social-icons">
-    {/* Social Media Icons */}
+    <p>Get in touch</p>
     <a href="https://www.linkedin.com/in/hannachoi" target="_blank">
       <i className="fab fa-linkedin-in" />
     </a>
