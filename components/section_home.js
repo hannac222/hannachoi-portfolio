@@ -1,5 +1,4 @@
 import { connect } from "react-redux";
-import Footer from "../components/footer";
 import ScrollDown from "../components/scroll-down";
 
 const Section_Home = ({ hideScrollDown }) => (

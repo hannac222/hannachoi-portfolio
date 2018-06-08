@@ -1,0 +1,14 @@
+.social-icons {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    z-index: 999;
+    p {
+        font-size: 1.6rem;
+    }
+    a {
+        font-size: 23px;
+        margin: 0 15px;
+        color: $fontColorDark;
+    }
+}

@@ -1,5 +1,4 @@
 import Header from "./header";
-import Footer from "../components/footer";
 
 const Layout = props => (
   <div className={props.className}>
@@ -7,7 +6,7 @@ const Layout = props => (
     {/* Main Content */}
     <div className="main">{props.children}</div>
     {/* Default Footer shown */}
-    {props.hideFooter === true ? null : <Footer />}
+    {/* {props.hideFooter === true ? null : <Footer />} */}
   </div>
 );
 

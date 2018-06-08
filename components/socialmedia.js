@@ -1,4 +1,4 @@
-const Footer = () => (
+const SocialMedia = () => (
   <div className="social-icons">
     <p>Get in touch</p>
     <a href="https://www.linkedin.com/in/hannachoi" target="_blank">
@@ -13,4 +13,4 @@ const Footer = () => (
   </div>
 );
 
-export default Footer;
+export default SocialMedia;

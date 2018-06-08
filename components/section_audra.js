@@ -2,7 +2,6 @@ import { connect } from "react-redux";
 import { Animated } from "react-animated-css";
 import { setAnimationDuration } from "../lib/utils";
 import Link from "next/link";
-import Footer from "../components/footer";
 
 const SECTION_NUMBER = 4;
 
