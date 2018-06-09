@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../components/layout";
 import PageNav from "../components/page-nav";
+import SocialMedia from "../components/socialmedia";
 
 const Lemongrass = () => (
   <Layout className="page-lemongrass">
@@ -18,17 +19,17 @@ const Lemongrass = () => (
             <ul>
               <li>
                 <h2>Project Info.</h2>
-                <p>A fictional business website</p>
+                <p>A fictional business website project</p>
               </li>
               <li>
                 <h2>Website</h2>
-                <p>hchoi.bcitwebdeveloper.ca/lemongrass</p>
+                <a href="hchoi.bcitwebdeveloper.ca/lemongrass">
+                  <p>hchoi.bcitwebdeveloper.ca/lemongrass</p>
+                </a>
               </li>
               <li>
-                <h2>Overview</h2>
-                <p>
-                  Platform: Static Site | A responsive | jQuery | Bootstrap |
-                </p>
+                <h2>Technology</h2>
+                <p>Platform: Static Site | Responsive | jQuery | Bootstrap |</p>
               </li>
             </ul>
           </div>
@@ -66,6 +67,7 @@ const Lemongrass = () => (
         </div>
       </section>
       <PageNav previousLink="/audra-portfolio" nextLink="/bcit-portfolio" />
+      <SocialMedia />
     </div>
   </Layout>
 );

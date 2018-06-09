@@ -4,6 +4,7 @@ $colorDarkWhite: #eeeeee;
 $colorBgLightGrey: rgb(242, 244, 245);
 $colorFpLightGrey: #f8f8f8;
 $colorBgWhite: #f9f9f9;
+$colorBgLightPink: #f4e8e9;
 $colorBtn: #ff4d5a;
 $colorLine: #27394d;
 /**/
@@ -58,12 +59,12 @@ $wide-desktop: 1400px;
 
 // Placeholder
 %clearfix {
-    &:before,
-    &:after {
-        content: " ";
-        display: table;
-    }
-    &:after {
-        clear: both;
-    }
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
 }

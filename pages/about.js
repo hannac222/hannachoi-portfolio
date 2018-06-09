@@ -20,10 +20,7 @@ const About = () => (
             efficient and reusable code to develop user friendly interface
             applications. I can deliver projects from concept to completion.
           </p>
-          <div>
-            <p>
-              <b>I’m good at</b>
-            </p>
+          <div className="strengths">
             <span>Communication</span>
 
             <p>
