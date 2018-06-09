@@ -10,7 +10,6 @@ const Lemongrass = () => (
         <span />
         <div className="title">
           <h1>Lemongrass</h1>
-          <h4 className="sub-title">A Fictional Business Website Project</h4>
         </div>
       </div>
       <section className="project-container">
@@ -29,15 +28,17 @@ const Lemongrass = () => (
               </li>
               <li>
                 <h2>Technology</h2>
-                <p>Platform: Static Site | Responsive | jQuery | Bootstrap |</p>
+                <p>
+                  Platform: Static HTML | CSS | Bootstrap | Responsive | jQuery
+                </p>
               </li>
             </ul>
           </div>
           <div className="project-content">
             <img
               className="mockup"
-              src="/static/assets/audra.jpg"
-              alt="Work Space"
+              src="/static/assets/lemon-overview.jpg"
+              alt="Lemongrass Mockup"
             />
           </div>
         </div>
