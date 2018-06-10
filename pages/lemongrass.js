@@ -2,8 +2,6 @@ import React from "react";
 import Layout from "../components/layout";
 import PageNav from "../components/page-nav";
 import SocialMedia from "../components/socialmedia";
-import MobileMockup from "../components/svg/mobile-mockup-v1.svg";
-import TabletMockup from "../components/svg/mobile-mockup-v1.svg";
 
 const Lemongrass = () => (
   <Layout className="page-lemongrass">
@@ -37,23 +35,16 @@ const Lemongrass = () => (
             </ul>
           </div>
           <div className="project-content">
-            <span className="mobile-mockup">
-              <MobileMockup />
-            </span>
-            <span className="tablet-mockup">
-              <TabletMockup />
-            </span>
-
-            {/* <img
-              className="mockup"
-              src="/static/assets/lemon-overview.jpg"
+            <img
+              className="lemongrass-mockup"
+              src="/static/assets/lemongrass-mockup.png"
               alt="Lemongrass Mockup"
-            /> */}
+            />
           </div>
         </div>
 
         <div className="project-detail">
-          <div>
+          <div className="concept">
             <h2>Concept</h2>
             <p>
               The business model is a exotic brunch and lunch restaurant in a
@@ -64,7 +55,11 @@ const Lemongrass = () => (
               pages.
             </p>
           </div>
-          <div className="detail-img" />
+          <img
+            className="mockup-detail"
+            src="/static/assets/lemon-overview.jpg"
+            alt="Lemongrass Mockup"
+          />
         </div>
         <div>
           <h2>Development</h2>
@@ -75,8 +70,6 @@ const Lemongrass = () => (
             form validation and indicated messages for the user.
           </p>
         </div>
-
-        {/* <LemongrassOverview /> */}
       </section>
       <PageNav previousLink="/audra-portfolio" nextLink="/bcit-portfolio" />
       <SocialMedia />
