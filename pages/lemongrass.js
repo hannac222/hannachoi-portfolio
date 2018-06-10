@@ -8,7 +8,7 @@ const Lemongrass = () => (
     <div className="wrapper-project">
       <div className="page-top">
         <span />
-        <div className="title">
+        <div className="title lemontitle">
           <h1>Lemongrass</h1>
         </div>
       </div>
@@ -41,7 +41,7 @@ const Lemongrass = () => (
             />
           </div>
         </div>
-        <div className="project-detail">
+        <div className="project-content">
           <div className="concept">
             <h2>Concept</h2>
             <p>
@@ -53,7 +53,7 @@ const Lemongrass = () => (
               pages.
             </p>
           </div>
-          <div className="lemongrass-overview" />
+          <div className="project-preview" />
           <div className="development">
             <h2>Development</h2>
             <p>
@@ -64,7 +64,7 @@ const Lemongrass = () => (
             </p>
           </div>
         </div>
-        <div className="lemongrass-detail">
+        <div className="project-detail">
           <img
             src="/static/assets/lemongrass-detail.png"
             alt="Lemongrass Detail Pages"

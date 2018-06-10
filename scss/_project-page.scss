@@ -8,7 +8,7 @@
   margin: auto;
   width: 100%;
   height: 40vh;
-  background: url(/static/assets/lemongrass.jpg);
+  background: url("/static/assets/lemongrass.jpg");
   background-size: cover;
   background-position: 50% 50%;
   @media screen and (min-width: $mobile-landscape) {
@@ -45,8 +45,10 @@
     @media screen and (min-width: $laptop) {
       top: 50%;
     }
-    h1 {
+    .lemontitle {
       text-transform: uppercase;
+    }
+    h1 {
       @media screen and (min-width: $laptop) {
         // font-size: 2.7rem;
       }
@@ -57,10 +59,6 @@
     p {
       font-size: 16px;
     }
-  }
-  .banner-image {
-    width: 100%;
-    top: 0;
   }
 }
 
@@ -91,7 +89,7 @@
       height: 80vh;
     }
     @media screen and (min-width: $wide-desktop) {
-      // height: 90vh;
+      //   height: 110vh;
     }
     @media screen and (min-width: $extra-wide) {
       height: 70vh;
@@ -117,7 +115,7 @@
         }
         li {
           list-style: none;
-          margin-right: 5rem; // color: $color__fontblack;
+          margin-right: 5rem;
           h2 {
             font-size: 2.1rem;
             line-height: 1.2;
@@ -136,7 +134,7 @@
             }
           }
           a {
-            color: $colorBtn; // margin-bottom: 1rem;
+            color: $colorBtn;
           }
           a:hover {
             text-decoration: none;
@@ -166,7 +164,7 @@
       }
     }
   }
-  .project-detail {
+  .project-content {
     background-color: $colorBgProjectDetail;
     padding: 7.5% 0 0 0;
     .concept {
@@ -186,6 +184,9 @@
       @media screen and (min-width: $desktop) {
         margin: 17rem auto 0 auto;
         padding: 7.5% 0;
+      }
+      @media screen and (min-width: $wide-desktop) {
+        margin-top: 35rem; // padding: 7.5% 0;
       }
       h2 {
         font-size: 2.1rem;
@@ -207,11 +208,11 @@
         }
       }
     }
-    .lemongrass-overview {
+    .project-preview {
       margin: 0 auto;
       max-width: 100%;
       height: 50rem;
-      background: url(/static/assets/lemon-overview.jpg) no-repeat center;
+      background: url("/static/assets/lemongrass-preview.jpg") no-repeat center;
       background-size: cover;
       @media screen and (min-width: $tablet-landscape) {
         height: 100vh;
@@ -259,7 +260,7 @@
       }
     }
   }
-  .lemongrass-detail {
+  .project-detail {
     width: 100%;
     background: $colorBgLightGrey; // top: 0;
     left: 0;
