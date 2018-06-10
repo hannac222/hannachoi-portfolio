@@ -4,7 +4,7 @@ import PageNav from "../components/page-nav";
 import SocialMedia from "../components/socialmedia";
 
 const AudraPortfolio = () => (
-  <Layout className="page-bcit-twd">
+  <Layout className="page-audra">
     <div className="wrapper-project">
       <div className="page-top">
         <span />
