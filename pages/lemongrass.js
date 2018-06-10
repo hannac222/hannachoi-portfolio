@@ -34,9 +34,8 @@ const Lemongrass = () => (
               </li>
             </ul>
           </div>
-          <div className="project-content">
+          <div className="project-mockup">
             <img
-              className="lemongrass-mockup"
               src="/static/assets/lemongrass-mockup.png"
               alt="Lemongrass Mockup"
             />
@@ -55,13 +54,9 @@ const Lemongrass = () => (
               pages.
             </p>
           </div>
-          <img
-            className="mockup-detail"
-            src="/static/assets/lemon-overview.jpg"
-            alt="Lemongrass Mockup"
-          />
+          <div className="mockup-detail" />
         </div>
-        <div>
+        <div className="development">
           <h2>Development</h2>
           <p>
             A full responsive website using Bootstrap. As a scrolling feature,

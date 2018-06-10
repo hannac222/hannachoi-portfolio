@@ -1,3 +1,4 @@
+import React from "react";
 import { Fullpage, Slide } from "fullpage-react";
 import { dispatch } from "@rematch/core";
 import Layout from "../components/layout";
@@ -48,14 +49,22 @@ const onSlideChangeEnd = (_, __, state) => {
   dispatch.hideScrollDown.shouldHide(state.activeSlide);
 };
 
-const Index = () => (
-  <div className="wrapper-index">
-    <Layout>
-      {/* Children of Layout */}
-      <Fullpage {...fullPageOptions} onSlideChangeEnd={onSlideChangeEnd} />
-      <SectionNav />
-    </Layout>
-  </div>
-);
+class Index extends React.Component {
+  componentWillUnmount() {
+    dispatch.repaintSection.repaint(0);
+  }
+
+  render() {
+    return (
+      <div className="wrapper-index">
+        <Layout>
+          {/* Children of Layout */}
+          <Fullpage {...fullPageOptions} onSlideChangeEnd={onSlideChangeEnd} />
+          <SectionNav />
+        </Layout>
+      </div>
+    );
+  }
+}
 
 export default Index;

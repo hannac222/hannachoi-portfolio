@@ -44,47 +44,49 @@
         left: 0;
         height: 80vh;
         z-index: -100;
-    }
-    .project-overview {
-        padding-top: 6rem; // padding-bottom: 3rem;
-        ul {
-            display: flex;
-            flex-direction: column;
-            margin-bottom: 7.2rem;
-            margin: auto;
-            max-width: 1200px;
-            padding: 0 7.5% 0;
-            @media screen and (min-width: $tablet-portrait) {}
-            li {
-                list-style: none; // color: $color__fontblack;
-                h2 {
-                    font-size: 2.1rem;
-                    line-height: 1.2;
-                    letter-spacing: 0.2em;
-                    text-transform: uppercase;
+        .project-overview {
+            padding-top: 6rem; // padding-bottom: 3rem;
+            ul {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 7.2rem;
+                margin: auto;
+                max-width: 1200px;
+                padding: 0 7.5% 0;
+                @media screen and (min-width: $tablet-portrait) {}
+                li {
+                    list-style: none; // color: $color__fontblack;
+                    h2 {
+                        font-size: 2.1rem;
+                        line-height: 1.2;
+                        letter-spacing: 0.2em;
+                        text-transform: uppercase;
+                    }
+                    p {
+                        font-size: 1.5rem;
+                    } // margin-right: 6.4rem;
                 }
-                p {
-                    font-size: 1.5rem;
-                } // margin-right: 6.4rem;
-            }
-            li:last-child {
-                margin-right: 0;
+                li:last-child {
+                    margin-right: 0;
+                }
             }
         }
-    }
-    .project-content {
-        max-width: 1000px;
-        padding: 10%;
-        margin: auto;
-        width: 100%;
-        img {
-            max-width: 100%;
-            vertical-align: middle;
+        .project-mockup {
+            max-width: 1000px; // padding: 0 10%;
+            padding-top: 5rem;
+            margin: auto;
+            width: 100%;
+            img {
+                max-width: 100%;
+                vertical-align: middle;
+            }
         }
     }
 }
 
 .project-detail {
+    background-color: $colorBgProjectDetail;
+    padding: 7.5% 0;
     .concept {
         padding: 7.5%;
         margin-top: 12.5rem; // display: flex;
@@ -100,9 +102,25 @@
     }
     .mockup-detail {
         margin: 0 auto;
-        max-width: 100%; // height: 60rem;
-        background: url(/static/assets/lemongrass-overview-hannachoi.jpg) no-repeat center;
+        max-width: 100%;
+        height: 50rem;
+        background: url(/static/assets/lemon-overview.jpg) no-repeat center;
         background-size: cover;
-        margin-top: 14.4rem; // opacity: 5;
+        margin-top: 7.5rem; // opacity: 5;
+    }
+}
+
+.development {
+    background-color: $colorBackground;
+    padding: 7.5%;
+    margin-top: 12.5rem; // display: flex;
+    h2 {
+        font-size: 2.1rem;
+        line-height: 1.2;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+    }
+    p {
+        font-size: 1.5rem;
     }
 }
