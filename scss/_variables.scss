@@ -13,6 +13,7 @@ $colorBgProjectDetail: #fafafa;
 //Font Colors
 $fontColorDark: #072142;
 $fontColorLight: #ffffff;
+$fontColorGrey: #828c96;
 /**/
 
 // Size
@@ -57,17 +58,19 @@ $mobile-landscape6s: 660px;
 $tablet-portrait: 760px;
 $tablet-landscape: 1020px;
 $desktop: 1090px;
+$laptop: 1280px;
 $wide-desktop: 1400px;
+$extra-wide: 1900px;
 /**/
 
 // Placeholder
 %clearfix {
-  &:before,
-  &:after {
-    content: " ";
-    display: table;
-  }
-  &:after {
-    clear: both;
-  }
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
 }

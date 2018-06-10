@@ -23,7 +23,7 @@ const Lemongrass = () => (
               <li className="live-website">
                 <h2>Website</h2>
                 <a href="http://hchoi.bcitwebdeveloper.ca/lemongrass">
-                  hchoi.bcitwebdeveloper.ca/lemongrass
+                  Visit website
                 </a>
               </li>
               <li>

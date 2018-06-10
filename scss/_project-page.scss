@@ -1,185 +1,280 @@
 .wrapper-project {
-    background-color: $colorBackground;
+  background-color: $colorBackground;
 }
 
 .page-top {
-    top: 0;
-    left: 0;
-    margin: auto;
-    width: 100%;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  height: 40vh;
+  background: url(/static/assets/lemongrass.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  @media screen and (min-width: $mobile-landscape) {
+    height: 70vh;
+  }
+  @media screen and (min-width: $tablet-portrait) {
     height: 40vh;
-    background: url(/static/assets/lemongrass.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
+  }
+  @media screen and (min-width: $tablet-landscape) {
+    height: 45vh;
+  }
+  @media screen and (min-width: $laptop) {
+    height: 55vh;
+  }
+  @media screen and (min-width: $wide-desktop) {
+    height: 60vh;
+  }
+  span {
+    height: 100vh;
+    width: 100vw;
+  }
+  .title {
+    top: 29%;
+    color: $fontColorLight;
     @media screen and (min-width: $mobile-landscape) {
-        height: 70vh;
+      top: 50%;
     }
     @media screen and (min-width: $tablet-portrait) {
-        height: 40vh;
+      top: 30%;
     }
-    span {
-        height: 100vh;
-        width: 100vw;
+    @media screen and (min-width: $tablet-landscape) {
+      top: 40%;
     }
-    .title {
-        top: 29%;
-        color: $fontColorLight;
-        @media screen and (min-width: $mobile-landscape) {
-            top: 50%;
-        }
-        @media screen and (min-width: $tablet-portrait) {
-            top: 30%;
-        }
-        h1 {
-            text-transform: uppercase;
-        }
-        p {
-            font-size: 16px;
-        }
+    @media screen and (min-width: $laptop) {
+      top: 50%;
     }
-    .banner-image {
-        width: 100%;
-        top: 0;
+    h1 {
+      text-transform: uppercase;
+      @media screen and (min-width: $laptop) {
+        // font-size: 2.7rem;
+      }
+      @media screen and (min-width: $wide-desktop) {
+        font-size: 60px;
+      }
     }
+    p {
+      font-size: 16px;
+    }
+  }
+  .banner-image {
+    width: 100%;
+    top: 0;
+  }
 }
 
 .project-container {
-    // margin: auto;
-    .project-bg {
-        width: 100%;
-        background: $colorBgLightGrey;
-        top: 0;
-        left: 0;
-        height: 80vh;
-        z-index: -100;
-        @media screen and (min-width: $mobile-portrait) {
-            height: 65vh;
-        }
-        @media screen and (min-width: $mobile-landscape-small) {
-            height: 160vh;
-        }
-        @media screen and (min-width: $mobile-landscape) {
-            //   height: 160vh;
-        }
-        @media screen and (min-width: $mobile-landscape6s) {
-            height: 150vh;
-        }
+  .project-bg {
+    width: 100%;
+    background: $colorBgLightGrey;
+    top: 0;
+    left: 0;
+    height: 80vh;
+    z-index: -100;
+    @media screen and (min-width: $mobile-portrait) {
+      height: 65vh;
+    }
+    @media screen and (min-width: $mobile-landscape-small) {
+      height: 160vh;
+    }
+    @media screen and (min-width: $mobile-landscape6s) {
+      height: 150vh;
+    }
+    @media screen and (min-width: $tablet-portrait) {
+      height: 60vh;
+    }
+    @media screen and (min-width: $tablet-landscape) {
+      height: 70vh;
+    }
+    @media screen and (min-width: $laptop) {
+      height: 80vh;
+    }
+    @media screen and (min-width: $wide-desktop) {
+      // height: 90vh;
+    }
+    @media screen and (min-width: $extra-wide) {
+      height: 70vh;
+    }
+    .project-overview {
+      padding-top: 6rem;
+      @media screen and (min-width: $tablet-portrait) {
+        padding-top: 8rem;
+        padding-bottom: 3rem;
+      }
+      @media screen and (min-width: $laptop) {
+        padding-top: 10rem;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 7.2rem;
+        margin: auto;
+        max-width: 1200px;
+        padding: 0 7.5% 0;
         @media screen and (min-width: $tablet-portrait) {
-            height: 55vh;
+          flex-direction: row;
         }
-        .project-overview {
-            padding-top: 6rem;
+        li {
+          list-style: none;
+          margin-right: 5rem; // color: $color__fontblack;
+          h2 {
+            font-size: 2.1rem;
+            line-height: 1.2;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
             @media screen and (min-width: $tablet-portrait) {
-                padding-top: 8rem;
-                padding-bottom: 3rem;
+              font-size: 2.3rem;
             }
-            ul {
-                display: flex;
-                flex-direction: column;
-                margin-bottom: 7.2rem;
-                margin: auto;
-                max-width: 1200px;
-                padding: 0 7.5% 0;
-                li {
-                    list-style: none; // color: $color__fontblack;
-                    h2 {
-                        font-size: 2.1rem;
-                        line-height: 1.2;
-                        letter-spacing: 0.2em;
-                        text-transform: uppercase;
-                    }
-                    p,
-                    a {
-                        font-size: 1.5rem;
-                    }
-                    a {
-                        color: $colorBtn; // margin-bottom: 1rem;
-                    }
-                    a:hover {
-                        text-decoration: none;
-                        opacity: 0.5;
-                    } // margin-right: 6.4rem;
-                }
-                .live-website {
-                    margin-bottom: 1rem;
-                }
-                li:last-child {
-                    margin-right: 0;
-                }
+          }
+          p,
+          a {
+            font-size: 1.5rem;
+            color: $fontColorGrey;
+            @media screen and (min-width: $tablet-portrait) {
+              font-size: 1.7rem;
             }
+          }
+          a {
+            color: $colorBtn; // margin-bottom: 1rem;
+          }
+          a:hover {
+            text-decoration: none;
+            opacity: 0.5;
+          }
         }
-        .project-mockup {
-            max-width: 1000px;
-            padding: 0 10%;
-            padding-top: 5rem;
-            margin: auto;
-            width: 100%;
-            img {
-                max-width: 100%;
-                vertical-align: middle;
-            }
+        .live-website {
+          margin-bottom: 1rem;
         }
+        li:last-child {
+          margin-right: 0;
+        }
+      }
     }
-    .project-detail {
-        background-color: $colorBgProjectDetail;
-        padding: 7.5% 0 0 0;
-        .concept {
-            padding: 7.5%;
-            margin: 12rem 0 4rem 0;
-            @media screen and (min-width: $mobile-portrait) {
-                margin-top: 10rem;
-            }
-            @media screen and (min-width: $tablet-portrait) {
-                margin-top: 2rem;
-            }
-            h2 {
-                font-size: 2.1rem;
-                line-height: 1.2;
-                letter-spacing: 0.2em;
-                text-transform: uppercase;
-            }
-            p {
-                font-size: 1.5rem;
-            }
-        }
-        .lemongrass-overview {
-            margin: 0 auto;
-            max-width: 100%;
-            height: 50rem;
-            background: url(/static/assets/lemon-overview.jpg) no-repeat center;
-            background-size: cover;
-        }
-        .development {
-            padding: 20% 7.5%;
-            @media screen and (min-width: $mobile-landscape6s) {
-                padding: 14% 7.5%;
-            }
-            @media screen and (min-width: $mobile-landscape6s) {
-                // padding: 7rem 7.5%;
-            }
-            @media screen and (min-width: $tablet-portrait) {
-                // margin-top: 28rem;
-            }
-            h2 {
-                font-size: 2.1rem;
-                line-height: 1.2;
-                letter-spacing: 0.2em;
-                text-transform: uppercase;
-            }
-            p {
-                font-size: 1.5rem;
-            }
-        }
+    .project-mockup {
+      max-width: 1100px;
+      padding: 0 10%;
+      padding-top: 5rem;
+      margin: auto;
+      width: 100%;
+      @media screen and (min-width: $laptop) {
+        padding: 6rem 0;
+      }
+      img {
+        max-width: 100%;
+        vertical-align: middle;
+      }
     }
-    .lemongrass-detail {
-        width: 100%;
-        background: $colorBgLightGrey; // top: 0;
-        left: 0;
+  }
+  .project-detail {
+    background-color: $colorBgProjectDetail;
+    padding: 7.5% 0 0 0;
+    .concept {
+      max-width: 1200px;
+      padding: 7.5%;
+      margin: 12rem 4rem 0;
+      @media screen and (min-width: $mobile-portrait) {
+        margin-top: 10rem;
+      }
+      @media screen and (min-width: $tablet-portrait) {
+        margin-top: 15rem;
+      }
+      @media screen and (min-width: $tablet-landscape) {
+        display: flex;
+        align-items: center;
+      }
+      @media screen and (min-width: $desktop) {
+        margin: 17rem auto 0 auto;
+        padding: 7.5% 0;
+      }
+      h2 {
+        font-size: 2.1rem;
+        line-height: 1.2;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        @media screen and (min-width: $tablet-portrait) {
+          font-size: 2.5rem;
+        }
+      }
+      p {
+        font-size: 1.5rem;
+        @media screen and (min-width: $tablet-portrait) {
+          font-size: 1.7rem;
+          line-height: 1.8;
+        }
+        @media screen and (min-width: $tablet-landscape) {
+          margin-left: 5%;
+        }
+      }
+    }
+    .lemongrass-overview {
+      margin: 0 auto;
+      max-width: 100%;
+      height: 50rem;
+      background: url(/static/assets/lemon-overview.jpg) no-repeat center;
+      background-size: cover;
+      @media screen and (min-width: $tablet-landscape) {
+        height: 100vh;
+      }
+    }
+    .development {
+      max-width: 1200px;
+      padding: 5rem 7.5%;
+      margin: 0 auto;
+      @media screen and (min-width: $mobile-landscape6s) {
+        padding: 7rem 7.5%;
+      }
+      @media screen and (min-width: $mobile-landscape6s) {
+        // padding: 7rem 7.5%;
+      }
+      @media screen and (min-width: $tablet-portrait) {
+        padding: 8rem 7.5%;
+      }
+      @media screen and (min-width: $tablet-landscape) {
+        padding: 9rem 7.5%;
+        display: flex;
+        align-items: center;
+      }
+      @media screen and (min-width: $desktop) {
+        padding: 14rem 0;
+      }
+      h2 {
+        font-size: 2.1rem;
+        line-height: 1.2;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        @media screen and (min-width: $tablet-portrait) {
+          font-size: 2.3rem;
+        }
+      }
+      p {
+        font-size: 1.5rem;
+        @media screen and (min-width: $tablet-portrait) {
+          font-size: 1.7rem;
+          line-height: 1.8;
+        }
+        @media screen and (min-width: $tablet-landscape) {
+          margin: 0 5%;
+        }
+      }
+    }
+  }
+  .lemongrass-detail {
+    width: 100%;
+    background: $colorBgLightGrey; // top: 0;
+    left: 0;
+    margin: 0;
+    text-align: center;
+    img {
+      max-width: 100%;
+      padding: 7.5%;
+      margin: 10% 0;
+      @media screen and (min-width: $tablet-portrait) {
+        margin: 3% 0;
+      }
+      @media screen and (min-width: $tablet-landscape) {
         margin: 0;
-        img {
-            max-width: 100%;
-            padding: 7.5%;
-            margin: 10% 0;
-        }
+      }
     }
+  }
 }
