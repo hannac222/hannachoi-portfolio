@@ -4,10 +4,14 @@
   "description": "Hanna Choi's Portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "deploy": "npm run export && cd ./out && now --public",
+    "dev": "next",
+    "export": "rm -fr ./out && next build && next export && npm run minimizeOutFolder",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minimizeOutFolder": "npm run uglify:main && rm ./out/_next/static/commons/main.js.map",
+    "uglify:main": "uglifyjs ./out/_next/static/commons/main.js --output ./out/_next/static/commons/main.js"
   },
   "repository": {
     "type": "git",
@@ -23,7 +27,7 @@
     "@rematch/core": "^0.6.0",
     "@zeit/next-sass": "^0.2.0",
     "fullpage-react": "^3.0.31",
-    "next": "^6.0.2",
+    "next": "^6.0.4-canary.3",
     "node-sass": "^4.9.0",
     "prop-types": "^15.6.1",
     "react": "^16.3.2",
@@ -31,5 +35,9 @@
     "react-dom": "^16.3.2",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-inline-react-svg": "^0.5.2",
+    "uglify-js": "^3.4.0"
   }
 }
