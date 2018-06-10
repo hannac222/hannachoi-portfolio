@@ -1,15 +1,19 @@
 .page-nav {
-    display: flex;
-    justify-content: space-around;
-    .previous,
-    .next {
-        padding: 20px;
-        width: 50%;
-        text-decoration: none;
-        color: $fontColorDark;
-        border: 1px solid black;
-    }
-    .next {
-        align-self: flex-end;
-    }
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  .previous,
+  .next {
+    padding: 20px;
+    width: 50%;
+    text-decoration: none;
+    color: $fontColorDark; // border: 1px solid black;
+  }
+  .next {
+    align-self: flex-end;
+  }
+  .previous:hover {
+    transform: translate3d(-15%, 0, 0);
+  }
 }

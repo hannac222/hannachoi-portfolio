@@ -20,10 +20,10 @@ const Lemongrass = () => (
                 <h2>Project Info.</h2>
                 <p>A fictional business website project</p>
               </li>
-              <li>
+              <li className="live-website">
                 <h2>Website</h2>
                 <a href="http://hchoi.bcitwebdeveloper.ca/lemongrass">
-                  <p>hchoi.bcitwebdeveloper.ca/lemongrass</p>
+                  hchoi.bcitwebdeveloper.ca/lemongrass
                 </a>
               </li>
               <li>
@@ -41,7 +41,6 @@ const Lemongrass = () => (
             />
           </div>
         </div>
-
         <div className="project-detail">
           <div className="concept">
             <h2>Concept</h2>
@@ -54,16 +53,22 @@ const Lemongrass = () => (
               pages.
             </p>
           </div>
-          <div className="mockup-detail" />
+          <div className="lemongrass-overview" />
+          <div className="development">
+            <h2>Development</h2>
+            <p>
+              A full responsive website using Bootstrap. As a scrolling feature,
+              the trendy CSS parallax effect with multiple background images to
+              create an interesting browsing experience. Also, a friendly
+              contact form validation and indicated messages for the user.
+            </p>
+          </div>
         </div>
-        <div className="development">
-          <h2>Development</h2>
-          <p>
-            A full responsive website using Bootstrap. As a scrolling feature,
-            the trendy CSS parallax effect with multiple background images to
-            create an interesting browsing experience. Also, a friendly contact
-            form validation and indicated messages for the user.
-          </p>
+        <div className="lemongrass-detail">
+          <img
+            src="/static/assets/lemongrass-detail.png"
+            alt="Lemongrass Detail Pages"
+          />
         </div>
       </section>
       <PageNav previousLink="/audra-portfolio" nextLink="/bcit-portfolio" />
