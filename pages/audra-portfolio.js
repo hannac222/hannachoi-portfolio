@@ -18,15 +18,15 @@ const AudraPortfolio = () => (
             <ul>
               <li>
                 <h2>Project Info.</h2>
-                <p>BCIT Technical Web Designer program portfolio</p>
+                <p>Artist client portfolio</p>
               </li>
               <li className="live-website">
                 <h2>Website</h2>
-                <a href="http://hchoi.bcitwebdeveloper.ca">Live website</a>
+                <a href="#">Live website</a>
               </li>
               <li>
                 <h2>Technology</h2>
-                <p>Platform: Static HTML | CSS | Responsive | jQuery</p>
+                <p>Wordpress | Sass | Responsive | jQuery | PHP</p>
               </li>
             </ul>
           </div>
@@ -62,8 +62,8 @@ const AudraPortfolio = () => (
         </div>
         <div className="project-detail">
           <img
-            src="/static/assets/lemongrass-detail.png"
-            alt="Lemongrass Detail Pages"
+            src="/static/assets/audra-detail.jpg"
+            alt="Audra Rickkets Detail Pages"
           />
         </div>
       </section>
