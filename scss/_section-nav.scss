@@ -33,7 +33,7 @@
       height: auto;
       width: 14px; //   position: relative;
       @media screen and (min-width: $tablet-landscape) {
-        height: 3px;
+        height: 3.5px;
         margin: 0 0 40px;
       }
       a {
@@ -42,7 +42,7 @@
         display: block;
         position: relative;
         text-decoration: none;
-        width: 2px;
+        width: 2.5px;
         height: 16px;
         @media screen and (min-width: $tablet-landscape) {
           width: 24px;
@@ -55,14 +55,14 @@
     }
     li.active {
       a {
-        width: 2px;
+        width: 2.5px;
         height: 32px;
         transition: 0.3s;
         -webkit-transition: 0.3s;
         -o-transition: 0.3s;
         @media screen and (min-width: $tablet-landscape) {
           width: 45px;
-          height: 3px;
+          height: 3.5px;
         }
       }
     }

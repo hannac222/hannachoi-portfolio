@@ -20,7 +20,7 @@ const Lemongrass = () => (
                 <h2>Project Info.</h2>
                 <p>A fictional business website project</p>
               </li>
-              <li className="live-website">
+              <li className="visit-website">
                 <h2>Website</h2>
                 <a href="http://hchoi.bcitwebdeveloper.ca/lemongrass">
                   Visit website
@@ -45,12 +45,12 @@ const Lemongrass = () => (
           <div className="concept">
             <h2>Concept</h2>
             <p>
-              The business model is a exotic brunch and lunch restaurant in a
-              suburb. It has a huge beautiful garden and atmosphere. As it’s a
-              restaurant, focused on introduction of menu and the interior of
-              the place. It’s made people easily reach out to the business by
-              display contact information and social media icons in all the
-              pages.
+              The business model is an exotic brunch and lunch restaurant in a
+              suburb. It has a beautiful garden and relaxing atmosphere. Since
+              it’s a restaurant, it focuses on introducing the menu and the
+              interior of the place. The website makes it easy for people to
+              reach out to the business by displaying contact information and
+              social media icons in all the pages.
             </p>
           </div>
           <div className="project-preview" />
@@ -60,7 +60,7 @@ const Lemongrass = () => (
               A full responsive website using Bootstrap. As a scrolling feature,
               the trendy CSS parallax effect with multiple background images to
               create an interesting browsing experience. Also, a friendly
-              contact form validation and indicated messages for the user.
+              contact form validation indicates error messages for the user.
             </p>
           </div>
         </div>

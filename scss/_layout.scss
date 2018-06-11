@@ -3,11 +3,11 @@ html {
   font-size: 62.5%;
 }
 
-// ::-moz-selection,
-// ::selection {
-//   color: red;
-//   background: yellow;
-// }
+::-moz-selection,
+::selection {
+    color: red;
+    background: yellow;
+}
 
 body {
   background-color: $colorBackground;

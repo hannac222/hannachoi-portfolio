@@ -3,9 +3,9 @@ import { Fullpage, Slide } from "fullpage-react";
 import { dispatch } from "@rematch/core";
 import Layout from "../components/layout";
 import Section_Home from "../components/section_home";
+import Section_Audra from "../components/section_audra";
 import Section_Lemon from "../components/section_lemon";
 import Section_Bcit from "../components/section_bcit";
-import Section_Audra from "../components/section_audra";
 import SectionNav from "../components/section-nav";
 import "../styles.scss";
 
@@ -28,13 +28,13 @@ const slides = [
     <Section_Home />
   </Slide>,
   <Slide>
+    <Section_Audra />
+  </Slide>,
+  <Slide>
     <Section_Lemon />
   </Slide>,
   <Slide>
     <Section_Bcit />
-  </Slide>,
-  <Slide>
-    <Section_Audra />
   </Slide>
 ];
 fullPageOptions.slides = slides;

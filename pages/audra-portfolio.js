@@ -9,7 +9,7 @@ const AudraPortfolio = () => (
       <div className="page-top">
         <span />
         <div className="title">
-          <h1>Audra Rickkets Portfolio</h1>
+          <h1>Audra Ricketts</h1>
         </div>
       </div>
       <section className="project-container">
@@ -18,11 +18,11 @@ const AudraPortfolio = () => (
             <ul>
               <li>
                 <h2>Project Info.</h2>
-                <p>Artist client portfolio</p>
+                <p>Artist client portfolio team project</p>
               </li>
-              <li className="live-website">
+              <li className="visit-website">
                 <h2>Website</h2>
-                <a href="#">Live website</a>
+                <a href="#">Visit website</a>
               </li>
               <li>
                 <h2>Technology</h2>
@@ -30,10 +30,10 @@ const AudraPortfolio = () => (
               </li>
             </ul>
           </div>
-          <div className="project-mockup">
+          <div className="project-wireframes">
             <img
-              src="/static/assets/lemongrass-mockup.png"
-              alt="Lemongrass Mockup"
+              src="/static/assets/audra-wireframes.jpg"
+              alt="Audra Ricketts Wireframes"
             />
           </div>
         </div>
@@ -41,22 +41,24 @@ const AudraPortfolio = () => (
           <div className="concept">
             <h2>Concept</h2>
             <p>
-              The business model is a exotic brunch and lunch restaurant in a
-              suburb. It has a huge beautiful garden and atmosphere. As it’s a
-              restaurant, focused on introduction of menu and the interior of
-              the place. It’s made people easily reach out to the business by
-              display contact information and social media icons in all the
-              pages.
+              The purpose of this website is to showcase the client's past and
+              current artwork to galleries and interested buyers. It’s a place
+              to learn about the client by reading her biography, artist
+              statement and CV as well as browsing her process and contact her.
+              To make her artworks stand out, it’s designed modern, clean,
+              minimalistic with a white background.
             </p>
           </div>
           <div className="project-preview" />
           <div className="development">
             <h2>Development</h2>
             <p>
-              A full responsive website using Bootstrap. As a scrolling feature,
-              the trendy CSS parallax effect with multiple background images to
-              create an interesting browsing experience. Also, a friendly
-              contact form validation and indicated messages for the user.
+              For the content management system, we built it with Wordpress and
+              a customized theme and admin dashboard. With Lightbox for the
+              gallery, users are able to look through images. The contact form
+              is built with the Ninja form plug-in which automatically sends a
+              confirmation email to users. To match the website design, we
+              customized Google Maps colors and style.
             </p>
           </div>
         </div>
@@ -67,7 +69,7 @@ const AudraPortfolio = () => (
           />
         </div>
       </section>
-      <PageNav previousLink="/lemongrass" nextLink="/audra-portfolio" />
+      <PageNav previousLink="/bcit-portfolio" nextLink="/lemongrass" />
       <SocialMedia />
     </div>
   </Layout>

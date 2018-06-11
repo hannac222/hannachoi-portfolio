@@ -3,7 +3,7 @@ import { Animated } from "react-animated-css";
 import { setAnimationDuration } from "../lib/utils";
 import Link from "next/link";
 
-const SECTION_NUMBER = 4;
+const SECTION_NUMBER = 2;
 
 const Section_Audra = ({ isVisible }) => (
   <div className="wrapper">
@@ -13,7 +13,7 @@ const Section_Audra = ({ isVisible }) => (
         isVisible={isVisible}
         style={setAnimationDuration("1.0s")}
       >
-        <h1>Audra Rickkets</h1>
+        <h1>Audra Ricketts</h1>
         <p>Artist Client Portfolio Website</p>
         <Link href="/audra-portfolio">
           <div className="btn-wrapper">

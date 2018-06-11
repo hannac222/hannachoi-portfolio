@@ -20,7 +20,7 @@ const BcitPortfolio = () => (
                 <h2>Project Info.</h2>
                 <p>BCIT Technical Web Designer program portfolio</p>
               </li>
-              <li className="live-website">
+              <li className="visit-website">
                 <h2>Website</h2>
                 <a href="http://hchoi.bcitwebdeveloper.ca">Live website</a>
               </li>
