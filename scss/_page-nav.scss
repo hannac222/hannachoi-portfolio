@@ -1,19 +1,25 @@
 .page-nav {
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
-  cursor: pointer;
-  .previous,
-  .next {
-    padding: 20px;
-    width: 50%;
-    text-decoration: none;
-    color: $fontColorDark; // border: 1px solid black;
-  }
-  .next {
-    align-self: flex-end;
-  }
-  .previous:hover {
-    transform: translate3d(-15%, 0, 0);
-  }
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    .previous,
+    .next {
+        padding: 20px;
+        width: 50%;
+        text-decoration: none;
+        font-size: 16px;
+        color: $colorBtn; // color: $fontColorDark; 
+    }
+    .next {
+        align-self: flex-end;
+    }
+    .previous:hover {
+        transform: translate3d(-15%, 0, 0);
+        opacity: 0.5;
+    }
+    .next:hover {
+        transform: translate3d(15%, 0, 0);
+        opacity: 0.5;
+    }
 }

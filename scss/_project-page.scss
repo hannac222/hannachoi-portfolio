@@ -190,6 +190,9 @@
             @media screen and (min-width: $wide-desktop) {
                 margin-top: 37rem;
             }
+            @media screen and (min-width: $extra-wide) {
+                margin-top: 24rem;
+            }
             h2 {
                 font-size: 2.1rem;
                 line-height: 1.2;
@@ -265,7 +268,6 @@
     }
     .project-detail {
         width: 100%;
-        background: $colorBgLightGrey;
         left: 0;
         margin: 0;
         text-align: center;

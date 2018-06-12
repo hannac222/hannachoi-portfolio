@@ -22,18 +22,18 @@ const BcitPortfolio = () => (
               </li>
               <li className="visit-website">
                 <h2>Website</h2>
-                <a href="http://hchoi.bcitwebdeveloper.ca">Live website</a>
+                <a href="http://hchoi.bcitwebdeveloper.ca">Visit website</a>
               </li>
               <li>
                 <h2>Technology</h2>
-                <p>Platform: Static HTML | CSS | Responsive | jQuery</p>
+                <p>Static HTML | CSS | Responsive | JavaScript | jQuery</p>
               </li>
             </ul>
           </div>
           <div className="project-mockup">
             <img
-              src="/static/assets/lemongrass-mockup.png"
-              alt="Lemongrass Mockup"
+              src="/static/assets/bcit-twd-mockup.png"
+              alt="BCIT TWD Portfolio Mockup"
             />
           </div>
         </div>
@@ -41,29 +41,26 @@ const BcitPortfolio = () => (
           <div className="concept">
             <h2>Concept</h2>
             <p>
-              The business model is a exotic brunch and lunch restaurant in a
-              suburb. It has a huge beautiful garden and atmosphere. As it’s a
-              restaurant, focused on introduction of menu and the interior of
-              the place. It’s made people easily reach out to the business by
-              display contact information and social media icons in all the
-              pages.
+              It’s a single web page that links major projects and assignments
+              from BCIT Technical Web Designer program.
             </p>
           </div>
           <div className="project-preview" />
           <div className="development">
             <h2>Development</h2>
             <p>
-              A full responsive website using Bootstrap. As a scrolling feature,
-              the trendy CSS parallax effect with multiple background images to
-              create an interesting browsing experience. Also, a friendly
-              contact form validation and indicated messages for the user.
+              Focused on building a simple responsive website and it has a
+              hamburger menu on smaller devices. On larger screens, the main
+              background video shows developers and designers collaborating on
+              projects. On smaller screens, the video is replaced with a static
+              image.
             </p>
           </div>
         </div>
         <div className="project-detail">
           <img
-            src="/static/assets/lemongrass-detail.png"
-            alt="Lemongrass Detail Pages"
+            src="/static/assets/bcit-twd-detail.jpg"
+            alt="BCIT TWD Portfolio Detail Pages"
           />
         </div>
       </section>

@@ -66,7 +66,7 @@ const Lemongrass = () => (
         </div>
         <div className="project-detail">
           <img
-            src="/static/assets/lemongrass-detail.png"
+            src="/static/assets/lemongrass-detail.jpg"
             alt="Lemongrass Detail Pages"
           />
         </div>

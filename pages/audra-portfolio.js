@@ -65,7 +65,7 @@ const AudraPortfolio = () => (
         <div className="project-detail">
           <img
             src="/static/assets/audra-detail.jpg"
-            alt="Audra Rickkets Detail Pages"
+            alt="Audra Ricketts Detail Pages"
           />
         </div>
       </section>
