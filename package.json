@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "next build",
-    "deploy": "npm run export && cd ./out && now --public",
+    "deploy": "npm run export && cp ./now.json ./out && cd ./out && now --public",
     "dev": "next",
     "export": "rm -fr ./out && next build && next export && npm run minimizeOutFolder",
     "start": "next start",
@@ -33,6 +33,7 @@
     "react": "^16.3.2",
     "react-animated-css": "^1.0.4",
     "react-dom": "^16.3.2",
+    "react-ga": "^2.5.3",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0"
   },
