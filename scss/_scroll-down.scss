@@ -1,44 +1,44 @@
 .scroll-down {
-  text-transform: uppercase;
-  position: fixed;
-  -webkit-writing-mode: vertical-rl;
-  -ms-writing-mode: tb-rl;
-  writing-mode: vertical-rl;
-  line-height: 1;
-  left: auto;
-  right: 6.25%;
-  font-size: 1rem;
-  bottom: 40px;
-  letter-spacing: 0.2em;
-  z-index: 100;
-  @media screen and (min-width: $tablet-portrait) {
-    font-size: 1.2rem;
-    bottom: 70px; // z-index: 100;
-  }
-  @media screen and (min-width: $tablet-landscape) {
-    right: auto;
-    left: $sizeMarginLeft + 20;
-  }
-  @media screen and (min-width: $desktop) {
-    left: $sizeMarginLeft + 10;
-  }
-  p {
-    margin: 0; // word-wrap: break-word;
-  }
+    text-transform: uppercase;
+    position: fixed;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    line-height: 1;
+    left: auto;
+    right: 6.25%;
+    font-size: 1rem;
+    bottom: 40px;
+    letter-spacing: 0.2em;
+    z-index: 100;
+    @media screen and (min-width: $tablet-portrait) {
+        font-size: 1.2rem;
+        bottom: 70px;
+    }
+    @media screen and (min-width: $tablet-landscape) {
+        right: auto;
+        left: $sizeMarginLeft + 20;
+    }
+    @media screen and (min-width: $desktop) {
+        left: $sizeMarginLeft + 10;
+    }
+    p {
+        margin: 0;
+    }
 }
 
 .scroll-down:after {
-  content: "";
-  background: $fontColorDark;
-  width: 2px;
-  height: 32px;
-  bottom: -40px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  @media screen and (min-width: $tablet-portrait) {
-    height: 60px;
-    bottom: -80px;
-  }
+    content: "";
+    background: $fontColorDark;
+    width: 2px;
+    height: 32px;
+    bottom: -40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    @media screen and (min-width: $tablet-portrait) {
+        height: 60px;
+        bottom: -80px;
+    }
 }
