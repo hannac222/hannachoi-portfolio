@@ -2,12 +2,11 @@
     .page-top {
         background-image: url("/static/assets/audra-banner.jpg");
         .title {
-            // top: 30%;
             h1 {
                 color: tomato;
             }
         }
-    } //   .project-container {
+    }
     .project-bg {
         background: $colorBackground;
     }
@@ -28,11 +27,15 @@
         }
     }
     .project-content {
-        // background-color: #fbeee2;
         background-color: #fbf4ed;
         .concept {
-            margin-top: 7rem;
             padding: 8% 0;
+            @media screen and (min-width: $mobile-landscape) {
+                margin-top: 13rem;
+            }
+            @media screen and (min-width: $mobile-landscape6s) {
+                padding: 8% 3rem;
+            }
             @media screen and (min-width: $tablet-landscape) {
                 margin-top: 23rem;
             }
@@ -43,7 +46,7 @@
                 // margin-top: 38rem;
             }
             @media screen and (min-width: $extra-wide) {
-                margin-top: 25rem;
+                margin-top: 17rem;
             }
         }
     }

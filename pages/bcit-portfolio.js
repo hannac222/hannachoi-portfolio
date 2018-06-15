@@ -9,7 +9,7 @@ const BcitPortfolio = () => (
       <div className="page-top">
         <span />
         <div className="title">
-          <h1>BCIT TWD Portfolio</h1>
+          <h1 className="bcitTitle">BCIT TWD Portfolio</h1>
         </div>
       </div>
       <section className="project-container">
@@ -26,7 +26,7 @@ const BcitPortfolio = () => (
               </li>
               <li>
                 <h2>Technology</h2>
-                <p>Static HTML | CSS | Responsive | JavaScript | jQuery</p>
+                <p>HTML | CSS | Responsive | JavaScript | jQuery</p>
               </li>
             </ul>
           </div>

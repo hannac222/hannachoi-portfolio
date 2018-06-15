@@ -10,7 +10,7 @@ export default class MyDocument extends Document {
             content="width=device-width, initial-scale=1.0"
           />
           <link
-            href="https://fonts.googleapis.com/css?family=Maven+Pro|Rajdhani|Roboto+Mono|Source+Code+Pro"
+            href="https://fonts.googleapis.com/css?family=Maven+Pro|Roboto+Mono|Comfortaa:400,700|Rubik:400,500|Carme"
             rel="stylesheet"
           />
           <link

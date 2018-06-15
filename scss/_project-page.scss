@@ -27,6 +27,9 @@
     @media screen and (min-width: $wide-desktop) {
         height: 60vh;
     }
+    @media screen and (min-width: $extra-wide) {
+        height: 55vh;
+    }
     span {
         height: 100vh;
         width: 100vw;
@@ -45,6 +48,9 @@
         }
         @media screen and (min-width: $laptop) {
             top: 50%;
+        }
+        @media screen and (min-width: $extra-wide) {
+            top: 45%;
         }
         .lemontitle {
             text-transform: uppercase;
@@ -77,8 +83,11 @@
         @media screen and (min-width: $mobile-landscape-small) {
             height: 160vh;
         }
+        @media screen and (min-width: $mobile-landscape) {
+            height: 130vh;
+        }
         @media screen and (min-width: $mobile-landscape6s) {
-            height: 150vh;
+            height: 120vh;
         }
         @media screen and (min-width: $tablet-portrait) {
             height: 60vh;
@@ -105,20 +114,21 @@
                 padding-top: 10rem;
             }
             ul {
+                font-family: $fontProjectInfo;
                 display: flex;
                 flex-direction: column;
                 margin-bottom: 7.2rem;
                 margin: auto;
                 max-width: 1200px;
                 padding: 0 7.5% 0;
-                @media screen and (min-width: $tablet-portrait) {
+                @media screen and (min-width: $mobile-landscape-small) {
                     flex-direction: row;
                 }
                 li {
                     list-style: none;
                     margin-right: 5rem;
                     h2 {
-                        font-size: 2.1rem;
+                        font-size: 2rem;
                         line-height: 1.2;
                         letter-spacing: 0.2em;
                         text-transform: uppercase;
@@ -128,10 +138,14 @@
                     }
                     p,
                     a {
-                        font-size: 1.5rem;
+                        font-size: 1.4rem;
                         color: $fontColorGrey;
+                        letter-spacing: 0.1rem;
                         @media screen and (min-width: $tablet-portrait) {
                             font-size: 1.7rem;
+                        }
+                        @media screen and (min-width: $tablet-landscape) {
+                            font-size: 1.8rem;
                         }
                     }
                     a {
@@ -152,7 +166,7 @@
         }
         .project-mockup,
         .project-wireframes {
-            max-width: 1100px;
+            max-width: 1000px;
             padding: 0 10%;
             padding-top: 5rem;
             margin: auto;
@@ -168,11 +182,12 @@
     }
     .project-content {
         background-color: $colorBgProjectDetail;
+        font-family: "Carme", sans-serif;
         padding: 7.5% 0 0 0;
         .concept {
             max-width: 1200px;
             padding: 7.5%;
-            margin: 12rem 4rem 0;
+            margin: 12rem 2rem 0;
             @media screen and (min-width: $mobile-portrait) {
                 margin-top: 10rem;
             }
@@ -188,10 +203,10 @@
                 padding: 7.5% 0;
             }
             @media screen and (min-width: $wide-desktop) {
-                margin-top: 37rem;
+                margin-top: 14rem;
             }
             @media screen and (min-width: $extra-wide) {
-                margin-top: 24rem;
+                margin-top: 14rem;
             }
             h2 {
                 font-size: 2.1rem;
@@ -210,6 +225,7 @@
                 }
                 @media screen and (min-width: $tablet-landscape) {
                     margin-left: 5%;
+                    font-size: 1.9rem;
                 }
             }
         }
@@ -262,6 +278,7 @@
                 }
                 @media screen and (min-width: $tablet-landscape) {
                     margin: 0 5%;
+                    font-size: 1.9rem;
                 }
             }
         }

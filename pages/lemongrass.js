@@ -28,9 +28,7 @@ const Lemongrass = () => (
               </li>
               <li>
                 <h2>Technology</h2>
-                <p>
-                  Platform: Static HTML | CSS | Bootstrap | Responsive | jQuery
-                </p>
+                <p>HTML | CSS | Bootstrap | Responsive | jQuery</p>
               </li>
             </ul>
           </div>

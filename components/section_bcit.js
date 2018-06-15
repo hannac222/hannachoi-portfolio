@@ -12,7 +12,7 @@ const Section_Bcit = ({ isVisible }) => (
         isVisible={isVisible}
         style={setAnimationDuration("1.0s")}
       >
-        <h1>BCIT TWD Portfolio</h1>
+        <h1 className="bcitTitle">BCIT TWD Portfolio</h1>
         <p>Projects and assignments from BCIT</p>
         <Link href="/bcit-portfolio">
           <div className="btn-wrapper">
