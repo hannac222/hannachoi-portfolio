@@ -1,7 +1,7 @@
 // Colors
 $colorBackground: #ffffff;
 $colorDarkWhite: #eeeeee;
-$colorBgLightGrey: rgb(242, 244, 245);
+$colorBgLightGrey: #f2f4f5;
 $colorFpLightGrey: #f8f8f8;
 $colorBgWhite: #f9f9f9;
 $colorBgLightPink: #f4e8e9;
@@ -24,11 +24,16 @@ $sizeMarginLeft: 40px;
 /**/
 
 // Fonts
-$fontHeader: "Comfortaa", cursive;
-$fontAboutParagraph: "Maven Pro", sans-serif;
-$fontAboutHightlight: "Roboto Mono", monospace;
-$fontTitle: "Rubik", sans-serif;
-$fontProjectInfo: "Carme", sans-serif;
+$fontHeader: "Comfortaa",
+cursive;
+$fontAboutParagraph: "Maven Pro",
+sans-serif;
+$fontAboutHightlight: "Roboto Mono",
+monospace;
+$fontTitle: "Rubik",
+sans-serif;
+$fontProjectInfo: "Carme",
+sans-serif;
 // Animation
 $anim: 250ms ease-in-out;
 $transitionDuration: 500ms;
@@ -66,12 +71,12 @@ $extra-wide: 1900px;
 
 // Placeholder
 %clearfix {
-  &:before,
-  &:after {
-    content: " ";
-    display: table;
-  }
-  &:after {
-    clear: both;
-  }
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
 }

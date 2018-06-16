@@ -26,7 +26,7 @@ const AudraPortfolio = () => (
               </li>
               <li>
                 <h2>Technology</h2>
-                <p>Wordpress | Sass | Responsive | jQuery | PHP</p>
+                <p>WordPress | Sass | Responsive | jQuery | PHP</p>
               </li>
             </ul>
           </div>

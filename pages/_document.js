@@ -23,7 +23,19 @@ export default class MyDocument extends Document {
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
           />
+          <link
+            rel="shortcut icon"
+            href="../static/assets/favicon.ico"
+            type="image/x-icon"
+          />
+          <link
+            rel="icon"
+            href="../static/assets/favicon.ico"
+            type="image/x-icon"
+          />
           <link rel="stylesheet" href="/_next/static/style.css" />
+
+          <title>Hanna Choi's Portfolio</title>
         </Head>
         <body>
           <Main />

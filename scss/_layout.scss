@@ -1,15 +1,9 @@
 // Common Style
 html {
-    font-size: 62.5%;
-}
-
-::-moz-selection,
-::selection {
-    color: red;
-    background: yellow;
+  font-size: 62.5%;
 }
 
 body {
-    background-color: $colorBackground;
-    color: $fontColorDark;
+  background-color: $colorBackground;
+  color: $fontColorDark;
 }
