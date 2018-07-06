@@ -22,7 +22,9 @@ const BcitPortfolio = () => (
               </li>
               <li className="visit-website">
                 <h2>Website</h2>
-                <a href="http://hchoi.bcitwebdeveloper.ca">Visit website</a>
+                <a href="http://hchoi.bcitwebdeveloper.ca" target="_blank">
+                  Visit website
+                </a>
               </li>
               <li>
                 <h2>Technology</h2>

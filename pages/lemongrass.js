@@ -22,7 +22,10 @@ const Lemongrass = () => (
               </li>
               <li className="visit-website">
                 <h2>Website</h2>
-                <a href="http://hchoi.bcitwebdeveloper.ca/lemongrass">
+                <a
+                  href="http://hchoi.bcitwebdeveloper.ca/lemongrass"
+                  target="_blank"
+                >
                   Visit website
                 </a>
               </li>
