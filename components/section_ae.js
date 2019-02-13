@@ -14,7 +14,7 @@ const Section_Ae = ({ isVisible }) => (
         style={setAnimationDuration("1.0s")}
       >
         <h1>AE Mechanical</h1>
-        <p>Plumbing company Client Website</p>
+        <p>Plumbing company Client website</p>
         <Link href="/ae-mechanical">
           <div className="btn-wrapper">
             <a className="btn">Show me more</a>
