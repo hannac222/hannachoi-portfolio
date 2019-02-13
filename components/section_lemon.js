@@ -3,7 +3,7 @@ import { Animated } from "react-animated-css";
 import { setAnimationDuration } from "../lib/utils";
 import Link from "next/link";
 
-const SECTION_NUMBER = 3;
+const SECTION_NUMBER = 4;
 
 const Section_Lemon = ({ isVisible }) => (
   <div className="wrapper">

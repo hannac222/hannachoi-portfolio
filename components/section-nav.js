@@ -24,6 +24,11 @@ const SectionNav = ({ activeSection }) => (
           <span />
         </a>
       </li>
+      <li className={activeSection === 4 ? "active" : ""}>
+        <a onClick={Fullpage.changeFullpageSlide.bind(null, 4)}>
+          <span />
+        </a>
+      </li>
     </ul>
   </div>
 );

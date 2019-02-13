@@ -3,9 +3,9 @@ import { Animated } from "react-animated-css";
 import { setAnimationDuration } from "../lib/utils";
 import Link from "next/link";
 
-const SECTION_NUMBER = 3;
+const SECTION_NUMBER = 2;
 
-const Section_Audra = ({ isVisible }) => (
+const Section_Ae = ({ isVisible }) => (
   <div className="wrapper">
     <div className="title">
       <Animated
@@ -13,9 +13,9 @@ const Section_Audra = ({ isVisible }) => (
         isVisible={isVisible}
         style={setAnimationDuration("1.0s")}
       >
-        <h1>Audra Ricketts</h1>
-        <p>Artist Client Portfolio Website</p>
-        <Link href="/audra-portfolio">
+        <h1>AE Mechanical</h1>
+        <p>Plumbing company Client Website</p>
+        <Link href="/ae-mechanical">
           <div className="btn-wrapper">
             <a className="btn">Show me more</a>
           </div>
@@ -27,8 +27,8 @@ const Section_Audra = ({ isVisible }) => (
       isVisible={isVisible}
       style={setAnimationDuration("1.7s")}
     >
-      <Link href="/audra-portfolio">
-        <a className="featured-image audra-portfolio-image">
+      <Link href="ae-mechanical">
+        <a className="featured-image ae-mechanical-image">
           <span />
         </a>
       </Link>
@@ -40,4 +40,4 @@ const mapState = state => ({
   isVisible: state.repaintSection >= SECTION_NUMBER - 1
 });
 
-export default connect(mapState)(Section_Audra);
+export default connect(mapState)(Section_Ae);

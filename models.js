@@ -12,7 +12,7 @@ export const hideScrollDown = {
   reducers: {
     shouldHide(_, activeSlide) {
       // Only show on the first section
-      return activeSlide === 3;
+      return activeSlide === 4;
     }
   }
 };
