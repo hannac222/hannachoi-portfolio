@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/layout";
 import PageNav from "../components/page-nav";
-import SocialMedia from "../components/socialmedia";
+import SocialMedia from "../components/social-media";
 
 const Lemongrass = () => (
   <Layout className="page-lemongrass">

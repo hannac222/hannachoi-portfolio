@@ -1,6 +1,6 @@
 import { connect } from "react-redux";
 import { Animated } from "react-animated-css";
-import { setAnimationDuration } from "../lib/utils";
+import { setAnimationDuration } from "../../lib/utils";
 import Link from "next/link";
 
 const SECTION_NUMBER = 4;

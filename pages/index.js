@@ -2,11 +2,11 @@ import React from "react";
 import { Fullpage, Slide } from "fullpage-react";
 import { dispatch } from "@rematch/core";
 import Layout from "../components/layout";
-import Section_Home from "../components/section_home";
-import Section_Ae from "../components/section_ae";
-import Section_Audra from "../components/section_audra";
-import Section_Lemon from "../components/section_lemon";
-import Section_Bcit from "../components/section_bcit";
+import Section__Home from "../components/sections/section__home";
+import Section__Ae from "../components/sections/section__ae";
+import Section__Audra from "../components/sections/section__audra";
+import Section__Lemon from "../components/sections/section__lemon";
+import Section__Bcit from "../components/sections/section__bcit";
 import SectionNav from "../components/section-nav";
 import "../styles.scss";
 
@@ -26,19 +26,19 @@ const fullPageOptions = {
 
 const slides = [
   <Slide>
-    <Section_Home />
+    <Section__Home />
   </Slide>,
   <Slide>
-    <Section_Ae />
+    <Section__Ae />
   </Slide>,
   <Slide>
-    <Section_Audra />
+    <Section__Audra />
   </Slide>,
   <Slide>
-    <Section_Lemon />
+    <Section__Lemon />
   </Slide>,
   <Slide>
-    <Section_Bcit />
+    <Section__Bcit />
   </Slide>
 ];
 fullPageOptions.slides = slides;

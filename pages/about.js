@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
-import SocialMedia from "../components/socialmedia";
+import SocialMedia from "../components/social-media";
 
 const About = () => (
   <Layout className="page-about">
@@ -9,8 +9,10 @@ const About = () => (
       {/* Body Content */}
       <section className="about-content">
         <q>
-          I know I can<br /> Be what I wanna be<br /> If I work hard at it<br />{" "}
-          I’ll be where I wanna be.
+          I know I can
+          <br /> Be what I wanna be
+          <br /> If I work hard at it
+          <br /> I’ll be where I wanna be.
         </q>
         <hr className="sep-full" />
         <div className="about-body">
@@ -60,7 +62,9 @@ const About = () => (
           </p>
           <div className="contacts">
             <p>
-              Have a project you’d like to discuss?<br />Let’s chat
+              Have a project you’d like to discuss?
+              <br />
+              Let’s chat
               <a href="mailto:hello@hannachoi.ca"> hello@hannachoi.ca</a>
             </p>
           </div>

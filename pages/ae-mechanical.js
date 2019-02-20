@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/layout";
 import PageNav from "../components/page-nav";
-import SocialMedia from "../components/socialmedia";
+import SocialMedia from "../components/social-media";
 
 const AeMechanical = () => (
   <Layout className="page-audra">
@@ -18,7 +18,7 @@ const AeMechanical = () => (
             <ul>
               <li>
                 <h2>Project Info.</h2>
-                <p>Plumbing company client website</p>
+                <p>Plumbing company client</p>
               </li>
               <li className="visit-website">
                 <h2>Website</h2>

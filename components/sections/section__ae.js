@@ -1,10 +1,11 @@
 import { connect } from "react-redux";
 import { Animated } from "react-animated-css";
-import { setAnimationDuration } from "../lib/utils";
+import { setAnimationDuration } from "../../lib/utils";
 import Link from "next/link";
-const SECTION_NUMBER = 5;
 
-const Section_Bcit = ({ isVisible }) => (
+const SECTION_NUMBER = 2;
+
+const Section_Ae = ({ isVisible }) => (
   <div className="wrapper">
     <div className="title">
       <Animated
@@ -12,9 +13,9 @@ const Section_Bcit = ({ isVisible }) => (
         isVisible={isVisible}
         style={setAnimationDuration("1.0s")}
       >
-        <h1 className="bcitTitle">BCIT TWD Portfolio</h1>
-        <p>Projects and assignments from BCIT</p>
-        <Link href="/bcit-portfolio">
+        <h1>AE Mechanical</h1>
+        <p>Plumbing company Client website</p>
+        <Link href="/ae-mechanical">
           <div className="btn-wrapper">
             <a className="btn">Show me more</a>
           </div>
@@ -26,8 +27,8 @@ const Section_Bcit = ({ isVisible }) => (
       isVisible={isVisible}
       style={setAnimationDuration("1.7s")}
     >
-      <Link href="/bcit-portfolio">
-        <a className="featured-image bcit-portfolio-image">
+      <Link href="ae-mechanical">
+        <a className="featured-image ae-mechanical-image">
           <span />
         </a>
       </Link>
@@ -39,4 +40,4 @@ const mapState = state => ({
   isVisible: state.repaintSection >= SECTION_NUMBER - 1
 });
 
-export default connect(mapState)(Section_Bcit);
+export default connect(mapState)(Section_Ae);

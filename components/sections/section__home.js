@@ -1,5 +1,5 @@
 import { connect } from "react-redux";
-import ScrollDown from "../components/scroll-down";
+import ScrollDown from "../scroll-down";
 
 const Section_Home = ({ hideScrollDown }) => (
   <div className="wrapper-home">
