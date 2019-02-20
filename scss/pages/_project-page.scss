@@ -1,5 +1,5 @@
 .wrapper-project {
-  background-color: $colorBackground;
+  // background-color: $colorBackground;
 }
 
 .page-top {
@@ -271,23 +271,6 @@
           margin: 0 5%;
           font-size: 1.9rem;
         }
-      }
-    }
-  }
-  .project-detail {
-    width: 100%;
-    left: 0;
-    margin: 0;
-    text-align: center;
-    img {
-      max-width: 100%;
-      padding: 7.5%;
-      margin: 10% 0;
-      @media screen and (min-width: $tablet-portrait) {
-        margin: 3% 0;
-      }
-      @media screen and (min-width: $tablet-landscape) {
-        margin: 0;
       }
     }
   }

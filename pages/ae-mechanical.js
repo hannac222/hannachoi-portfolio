@@ -1,44 +1,30 @@
 import React from "react";
 import Layout from "../components/layout";
+import PagesHero from "../components/project-pages/pages-hero";
+import ProjectOverview from "../components/project-pages/project-overview";
+import ProjectDetail from "../components/project-pages/project-detail";
 import PageNav from "../components/page-nav";
 import SocialMedia from "../components/social-media";
 
 const AeMechanical = () => (
-  <Layout className="page-audra">
-    <div className="wrapper-project">
-      <div className="page-top">
-        <span />
+  <Layout className="page-ae">
+    <PagesHero pageTitle="AE Mechanical" pageName="ae-mechanical" />
+    {/* <div className="page-top"> */}
+    {/* <span />
         <div className="title">
-          <h1>AE Mechanical</h1>
-        </div>
-      </div>
+        <h1>AE Mechanical</h1>
+      </div> */}
+    {/* </div> */}
+    <ProjectOverview
+      projectInfo="Plumbing company client"
+      siteUrl="http://beta.aemechanical.ca"
+      technology="React.js | Next.js | Sass | Adobe XD | Responsive | SVG"
+      imgUrl="audra-wireframes.jpg"
+      alt="Audra Ricketts Wireframes"
+    />
+    <div className="wrapper-project">
       <section className="project-container">
-        <div className="project-bg">
-          <div className="project-overview">
-            <ul>
-              <li>
-                <h2>Project Info.</h2>
-                <p>Plumbing company client</p>
-              </li>
-              <li className="visit-website">
-                <h2>Website</h2>
-                <a href="http://beta.aemechanical.ca" target="_blank">
-                  Visit website
-                </a>
-              </li>
-              <li>
-                <h2>Technology</h2>
-                <p>React.js | Next.js | Sass | Adobe XD | Responsive | SVG </p>
-              </li>
-            </ul>
-          </div>
-          <div className="project-wireframes">
-            <img
-              src="/static/assets/audra-wireframes.jpg"
-              alt="Audra Ricketts Wireframes"
-            />
-          </div>
-        </div>
+        <div className="project-bg" />
         <div className="project-content">
           <div className="concept">
             <h2>Concept</h2>
@@ -65,8 +51,8 @@ const AeMechanical = () => (
           </div>
         </div>
         <div className="project-detail">
-          <img
-            src="/static/assets/audra-detail.jpg"
+          <ProjectDetail
+            imgUrl="audra-detail.jpg"
             alt="Audra Ricketts Detail Pages"
           />
         </div>

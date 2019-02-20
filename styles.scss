@@ -4,10 +4,15 @@
 // SASS Imports
 @import "./scss/bootstrap-reboot-with-comments";
 @import "./scss/variables";
-// Compotents
+// Components in project pages
+@import "./scss/components/project-pages/pages-hero";
+@import "./scss/components/project-pages/project-detail";
+@import "./scss/components/project-pages/project-overview";
+// Components in Sections
 @import "./scss/components/sections/section-home";
 @import "./scss/components/sections/section-nav";
 @import "./scss/components/sections/section-projects";
+// Components
 @import "./scss/components/header";
 @import "./scss/components/layout";
 @import "./scss/components/page-nav";

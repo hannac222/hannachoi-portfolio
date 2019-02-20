@@ -49,6 +49,9 @@
                     height: 100%;
                 }
             }
+            a:hover {
+                transform: scale(1.2);
+            }
         }
         li:last-child {
             margin-bottom: 0;
