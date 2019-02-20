@@ -4,14 +4,10 @@
   "description": "Hanna Choi's Portfolio",
   "main": "index.js",
   "scripts": {
-    "build": "next build",
-    "deploy": "npm run export && cp ./now.json ./out && cd ./out && now --public",
+    "now-build": "next build",
+    "deploy:beta": "now && now alias",
     "dev": "next",
-    "export": "rm -fr ./out && next build && next export && npm run minimizeOutFolder",
-    "start": "next start",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "minimizeOutFolder": "npm run uglify:main && rm ./out/_next/static/commons/main.js.map",
-    "uglify:main": "uglifyjs ./out/_next/static/commons/main.js --output ./out/_next/static/commons/main.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -34,7 +30,7 @@
     "react-animated-css": "^1.0.4",
     "react-dom": "^16.8.2",
     "react-ga": "^2.5.7",
-    "react-redux": "^5.0.7",
+    "react-redux": "^6.0.1",
     "redux": "^4.0.1"
   },
   "devDependencies": {

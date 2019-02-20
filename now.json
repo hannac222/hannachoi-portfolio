@@ -1,4 +1,16 @@
 {
-  "name": "hannachoi",
-  "alias": ["hannachoi"]
+  "version": 2,
+  "alias": ["hannachoi", "beta.hannachoi.ca"],
+  "regions": ["sfo1", "bru1"],
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/next"
+    },
+    {
+      "src": "static/**",
+      "use": "@now/static"
+    }
+  ],
+  "routes": [{ "src": "^/static/(.*)", "dest": "/static/$1" }]
 }
