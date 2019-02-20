@@ -1,3 +1,4 @@
+import React from "react";
 import { Fullpage } from "fullpage-react";
 import { connect } from "react-redux";
 

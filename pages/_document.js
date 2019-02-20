@@ -34,8 +34,6 @@ export default class MyDocument extends Document {
             type="image/x-icon"
           />
           <link rel="stylesheet" href="/_next/static/style.css" />
-
-          <title>Hanna Choi's Portfolio</title>
         </Head>
         <body>
           <Main />

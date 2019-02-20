@@ -1,3 +1,4 @@
+import React from "react";
 import Link from "next/link";
 import LeftArrow from "./svg/left-arrow.svg";
 import RightArrow from "./svg/right-arrow.svg";
