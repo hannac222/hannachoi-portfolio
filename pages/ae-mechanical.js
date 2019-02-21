@@ -24,7 +24,7 @@ const AeMechanical = () => (
     />
     <div className="wrapper-project">
       <section className="project-container">
-        <div className="project-bg" />
+        {/* <div className="project-bg" /> */}
         <div className="project-content">
           <div className="concept">
             <h2>Concept</h2>
