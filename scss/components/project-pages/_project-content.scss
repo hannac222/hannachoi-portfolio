@@ -1,0 +1,65 @@
+.project-content {
+  background-color: $colorBgProjectDetail;
+  font-family: "Carme", sans-serif;
+  padding: 7.5% 0 0 0;
+  .concept,
+  .development {
+    max-width: 1200px;
+    padding: 7.5%; // margin: 12rem 2rem 0;
+    margin: 0 auto;
+    @media screen and (min-width: $tablet-landscape) {
+      display: flex;
+      align-items: center;
+    }
+    @media screen and (min-width: $desktop) {
+      // margin: 20rem auto 0 auto;
+      padding: 7.5% 0;
+    }
+    h2 {
+      font-size: 2.1rem;
+      line-height: 1.2;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      @media screen and (min-width: $tablet-portrait) {
+        font-size: 2.5rem;
+      }
+    }
+    p {
+      font-size: 1.5rem;
+      @media screen and (min-width: $tablet-portrait) {
+        font-size: 1.7rem;
+        line-height: 1.8;
+      }
+      @media screen and (min-width: $tablet-landscape) {
+        margin-left: 5%;
+        font-size: 1.9rem;
+      }
+    }
+  }
+  .project-preview {
+    img {
+      max-width: 100%;
+    }
+    @media screen and (min-width: $tablet-landscape) {
+      // height: 100vh;
+    }
+  }
+  .project-detail {
+    // width: 100%;
+    // left: 0;
+    // margin: 0;
+    text-align: center;
+    img {
+      max-width: 100%;
+      padding: 7.5%;
+      margin: 10% 0;
+      width: 100%;
+      @media screen and (min-width: $tablet-portrait) {
+        margin: 3% 0;
+      }
+      @media screen and (min-width: $tablet-landscape) {
+        margin: 0;
+      }
+    }
+  }
+}
