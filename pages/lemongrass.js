@@ -72,7 +72,7 @@ const Lemongrass = () => (
           />
         </div>
       </section>
-      <PageNav previousLink="/audra-portfolio" nextLink="/bcit-portfolio" />
+      <PageNav previousLink="/audra-ricketts" nextLink="/bcit-portfolio" />
       <SocialMedia />
     </div>
   </Layout>

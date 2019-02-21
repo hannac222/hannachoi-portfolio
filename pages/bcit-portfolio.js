@@ -66,7 +66,7 @@ const BcitPortfolio = () => (
           />
         </div>
       </section>
-      <PageNav previousLink="/lemongrass" nextLink="/audra-portfolio" />
+      <PageNav previousLink="/lemongrass" nextLink="/audra-ricketts" />
       <SocialMedia />
     </div>
   </Layout>

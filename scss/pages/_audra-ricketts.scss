@@ -1,0 +1,33 @@
+.page-audra {
+    .pages-hero {
+        .title {
+            h1 {
+                @media screen and (min-width: $tablet__landscape) {
+                    color: $color__Audra__main;
+                }
+            }
+        }
+        &.audra-ricketts {
+            background-image: url("/static/assets/audra-banner.jpg");
+        }
+    }
+    .project-wireframes {
+        img {
+            border: 1px solid $color__Audra__main;
+            background-color: #fff;
+            padding: 10px;
+            @media screen and (min-width: $tablet__portrait) {
+                padding: 40px;
+            }
+        }
+        span {
+            background: $color__Audra__bg;
+        }
+    }
+    .project-content {
+        background-color: $color__Audra__bg;
+    }
+    .project-detail {
+        background-color: $color__Audra__bg-green;
+    }
+}

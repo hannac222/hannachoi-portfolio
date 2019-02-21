@@ -15,7 +15,7 @@ const Section_Audra = ({ isVisible }) => (
       >
         <h1>Audra Ricketts</h1>
         <p>Artist Client Portfolio Website</p>
-        <Link href="/audra-portfolio">
+        <Link href="/audra-ricketts">
           <div className="btn-wrapper">
             <a className="btn">Show me more</a>
           </div>
@@ -27,8 +27,8 @@ const Section_Audra = ({ isVisible }) => (
       isVisible={isVisible}
       style={setAnimationDuration("1.7s")}
     >
-      <Link href="/audra-portfolio">
-        <a className="featured-image audra-portfolio-image">
+      <Link href="/audra-ricketts">
+        <a className="featured-image audra-ricketts-image">
           <span />
         </a>
       </Link>
