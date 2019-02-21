@@ -4,11 +4,9 @@
     grid-template-columns: 50% 50%;
     justify-items: center;
     cursor: pointer;
+    padding: 20px;
     a {
-        padding: 20px;
-        width: 50%;
         text-transform: uppercase;
-        font-size: 20px;
         color: $colorLine;
         overflow: hidden;
         display: flex;
@@ -16,9 +14,13 @@
         align-items: center;
         transition: 0.6s;
         letter-spacing: 0.1rem;
+        font-size: 15px;
+        @media screen and (min-width: $tablet__portrait) {
+            font-size: 20px;
+        }
         svg {
             width: 55px;
-            @media screen and (max-width: $mobile-landscape-small) {
+            @media screen and (max-width: $mobile__landscape__small) {
                 display: none;
             }
         }
@@ -29,14 +31,14 @@
     .previous:hover {
         transform: translate3d(-15%, 0, 0);
         color: $colorBtn;
-        @media screen and (max-width: $mobile-landscape-small) {
+        @media screen and (max-width: $mobile__landscape__small) {
             transform: translate3d(-5%, 0, 0);
         }
     }
     .next:hover {
         transform: translate3d(15%, 0, 0);
         color: $colorBtn;
-        @media screen and (max-width: $mobile-landscape-small) {
+        @media screen and (max-width: $mobile__landscape__small) {
             transform: translate3d(5%, 0, 0);
         }
     }
