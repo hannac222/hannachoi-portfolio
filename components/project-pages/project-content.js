@@ -19,9 +19,9 @@ export default ({
         <h2>Development</h2>
         <p>{development}</p>
       </div>
-    </div>
-    <div className="project-detail">
-      <img src={"../static/assets/" + detailUrl} alt={detailAlt} />
+      <div className="project-detail">
+        <img src={"../static/assets/" + detailUrl} alt={detailAlt} />
+      </div>
     </div>
   </>
 );
