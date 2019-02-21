@@ -1,72 +1,72 @@
 .section-nav-container {
-    position: fixed;
-    font-size: 1rem;
-    bottom: 20px;
-    top: auto;
-    width: auto;
-    left: 50%;
-    transform: translate3d(-50%, 0, 0);
-    z-index: 100;
-    @media screen and (min-width: $tablet-landscape) {
-        -webkit-transform: translate3d(0, -50%, 0);
-        transform: translate3d(0, -50%, 0);
-        top: 50%;
-        margin: 0;
-        margin-left: 10px;
-        left: 40px;
-        bottom: auto;
+  position: fixed;
+  font-size: 1rem;
+  bottom: 20px;
+  top: auto;
+  width: auto;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+  z-index: 100;
+  @media screen and (min-width: $tablet__landscape) {
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+    top: 50%;
+    margin: 0;
+    margin-left: 10px;
+    left: 40px;
+    bottom: auto;
+  }
+  @media screen and (min-width: $desktop) {
+    margin-left: 10px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+    @media screen and (min-width: $tablet__landscape) {
+      display: block;
     }
-    @media screen and (min-width: $desktop) {
-        margin-left: 10px;
+    li {
+      margin: 0 12px;
+      height: auto;
+      width: 14px;
+      @media screen and (min-width: $tablet__landscape) {
+        height: 3.5px;
+        margin: 0 0 40px;
+      }
+      a {
+        cursor: pointer;
+        background: $fontColorDark;
+        display: block;
+        position: relative; // text-decoration: none;
+        width: 2.5px;
+        height: 16px;
+        @media screen and (min-width: $tablet__landscape) {
+          width: 24px;
+          height: 100%;
+        }
+      }
+      a:hover {
+        transform: scale(1.2);
+      }
     }
-    ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        align-items: flex-end;
-        @media screen and (min-width: $tablet-landscape) {
-            display: block;
-        }
-        li {
-            margin: 0 12px;
-            height: auto;
-            width: 14px;
-            @media screen and (min-width: $tablet-landscape) {
-                height: 3.5px;
-                margin: 0 0 40px;
-            }
-            a {
-                cursor: pointer;
-                background: $fontColorDark;
-                display: block;
-                position: relative; // text-decoration: none;
-                width: 2.5px;
-                height: 16px;
-                @media screen and (min-width: $tablet-landscape) {
-                    width: 24px;
-                    height: 100%;
-                }
-            }
-            a:hover {
-                transform: scale(1.2);
-            }
-        }
-        li:last-child {
-            margin-bottom: 0;
-        }
-        li.active {
-            a {
-                width: 2.5px;
-                height: 32px;
-                transition: 0.3s;
-                -webkit-transition: 0.3s;
-                -o-transition: 0.3s;
-                @media screen and (min-width: $tablet-landscape) {
-                    width: 45px;
-                    height: 3.5px;
-                }
-            }
-        }
+    li:last-child {
+      margin-bottom: 0;
     }
+    li.active {
+      a {
+        width: 2.5px;
+        height: 32px;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        @media screen and (min-width: $tablet__landscape) {
+          width: 45px;
+          height: 3.5px;
+        }
+      }
+    }
+  }
 }

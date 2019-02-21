@@ -20,20 +20,20 @@
   letter-spacing: 0.1em;
   font-size: 1.6rem;
   font-weight: 500;
-  @media screen and (min-width: $tablet-portrait) {
+  @media screen and (min-width: $tablet__portrait) {
     padding: 0;
     font-size: 23px;
   }
   .name {
     margin: 0;
     cursor: pointer;
-    @media screen and (min-width: $tablet-portrait) {
+    @media screen and (min-width: $tablet__portrait) {
       margin: 30px 0 auto 40px;
     }
   }
   .nav {
     margin-left: auto;
-    @media screen and (min-width: $tablet-portrait) {
+    @media screen and (min-width: $tablet__portrait) {
       margin: 30px 40px 15px auto;
     }
     a {

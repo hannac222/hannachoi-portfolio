@@ -8,6 +8,10 @@ $colorBgLightPink: #f4e8e9;
 $colorBtn: #ff4d5a;
 $colorLine: #27394d;
 $colorBgProjectDetail: #fafafa;
+// Audra ricketts color
+$color__Audra__main: tomato;
+$color__Audra__bg: #fbf4ed;
+$color__Audra__bg-green: #e9f4f1;
 /**/
 
 //Font Colors
@@ -57,12 +61,12 @@ iPad Pro(landscape) : 1366 * 1024
 --------------------------------------------------------------*/
 
 // Break Point based on min-width
-$mobile-portrait: 370px;
-$mobile-landscape-small: 480px;
-$mobile-landscape: 560px;
-$mobile-landscape6s: 660px;
-$tablet-portrait: 760px;
-$tablet-landscape: 1020px;
+$mobile__portrait: 360px;
+$mobile__landscape__small: 480px;
+$mobile__landscape: 560px;
+$mobile__landscape6s: 660px;
+$tablet__portrait: 760px;
+$tablet__landscape: 1020px;
 $desktop: 1090px;
 $laptop: 1280px;
 $wide-desktop: 1400px;
