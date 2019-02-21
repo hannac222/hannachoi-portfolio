@@ -1,7 +1,13 @@
-export default ({ projectInfo, siteUrl, technology, imgUrl, alt }) => (
-  //   <div className={"pages-hero " + pageName}>
-  <>
-    <div className="project-overview">
+export default ({
+  pageName,
+  projectInfo,
+  siteUrl,
+  technology,
+  imgUrl,
+  alt
+}) => (
+  <div className={"project-overview " + pageName}>
+    <div className="project-info">
       <ul>
         <li>
           <h2>Project Info.</h2>
@@ -23,6 +29,5 @@ export default ({ projectInfo, siteUrl, technology, imgUrl, alt }) => (
       <img src={"../static/assets/" + imgUrl} alt={alt} />
       <span />
     </div>
-  </>
-  //   </div>
+  </div>
 );
