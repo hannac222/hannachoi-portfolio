@@ -1,174 +1,174 @@
 // General Sections
 .wrapper {
-    height: 100vh;
-    width: 100%;
-    margin-top: $sizeMarginTopMobile;
-    @media screen and (min-width: $mobile-portrait) {
-        margin-top: $sizeMarginTopMobile + 3;
-    }
-    @media screen and (min-width: $tablet-portrait) {
-        margin-top: $sizeMarginTop + 20;
-    }
-    @media screen and (min-width: $tablet-landscape) {
-        margin-top: $sizeMarginTop + 30;
-    }
+  height: 100vh;
+  width: 100%;
+  margin-top: $sizeMarginTopMobile;
+  @media screen and (min-width: $mobile-portrait) {
+    margin-top: $sizeMarginTopMobile + 3;
+  }
+  @media screen and (min-width: $tablet-portrait) {
+    margin-top: $sizeMarginTop + 20;
+  }
+  @media screen and (min-width: $tablet-landscape) {
+    margin-top: $sizeMarginTop + 30;
+  }
 }
 
 .title {
-    font-family: "Rubik", sans-serif;
-    position: absolute;
-    letter-spacing: 0.1em;
-    z-index: 800;
-    text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
-    margin: 0 6.25%;
-    top: 58%;
-    font-size: 1.4rem;
-    @media screen and (min-width: $mobile-portrait) {
-        width: 87%;
-        top: 65%;
-    }
+  font-family: "Rubik", sans-serif;
+  position: absolute;
+  letter-spacing: 0.1em;
+  z-index: 800;
+  text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
+  margin: 0 6.25%;
+  top: 58%;
+  font-size: 1.4rem;
+  @media screen and (min-width: $mobile-portrait) {
+    width: 87%;
+    top: 65%;
+  }
+  @media screen and (min-width: $mobile-landscape) {
+    top: 40%;
+  }
+  @media screen and (min-width: $tablet-portrait) {
+    top: 65%;
+    font-size: 2.6rem;
+    margin: 0 10%;
+  }
+  @media screen and (min-width: $tablet-landscape) {
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+    font-size: 24px;
+    top: 50%;
+    margin-left: 12%;
+  }
+  @media screen and (min-width: $desktop) {
+    font-size: 3rem;
+  }
+  @media screen and (min-width: $wide-desktop) {
+    font-size: 3.4rem;
+  }
+  #lemonTilte {
+    text-transform: uppercase;
+  }
+  .bcitTitle {
+    letter-spacing: -0.7px;
+  }
+  p {
+    font-size: 16px;
+    margin-bottom: 10px;
     @media screen and (min-width: $mobile-landscape) {
-        top: 40%;
+      margin-bottom: 16px;
     }
     @media screen and (min-width: $tablet-portrait) {
-        top: 65%;
-        font-size: 2.6rem;
-        margin: 0 10%;
-    }
-    @media screen and (min-width: $tablet-landscape) {
-        -webkit-transform: translate3d(0, -50%, 0);
-        transform: translate3d(0, -50%, 0);
-        font-size: 24px;
-        top: 50%;
-        margin-left: 12%;
-    }
-    @media screen and (min-width: $desktop) {
-        font-size: 3rem;
+      font-size: 2.1rem;
     }
     @media screen and (min-width: $wide-desktop) {
-        font-size: 3.4rem;
+      font-size: 2.3rem;
     }
-    #lemonTilte {
-        text-transform: uppercase;
+  }
+  a {
+    // text-decoration: none;
+  }
+  .btn-wrapper {
+    text-align: center;
+    @media screen and (min-width: $mobile-landscape) {
+      text-align: left;
     }
-    .bcitTitle {
-        letter-spacing: -0.7px;
+    .btn {
+      cursor: pointer;
+      display: inline-block;
+      border-radius: $borderRadius;
+      background-color: $colorBtn;
+      color: $fontColorLight;
+      letter-spacing: 0.05em;
+      transition: 0.3s;
+      border: 0;
+      font-size: 1.2rem;
+      padding: 10px 14px;
+      @media screen and (min-width: $mobile-portrait) {
+        margin-top: 3%;
+        font-size: 1.3rem;
+        padding: 12px 18px;
+      }
+      @media screen and (min-width: $mobile-landscape) {
+        margin-top: 2%;
+      }
+      @media screen and (min-width: $tablet-portrait) {
+        font-size: 1.8rem;
+      }
     }
-    p {
-        font-size: 16px;
-        margin-bottom: 10px;
-        @media screen and (min-width: $mobile-landscape) {
-            margin-bottom: 16px;
-        }
-        @media screen and (min-width: $tablet-portrait) {
-            font-size: 2.1rem;
-        }
-        @media screen and (min-width: $wide-desktop) {
-            font-size: 2.3rem;
-        }
+    .btn:hover {
+      -webkit-transform: translate3d(0, -5%, 0);
+      transform: translate3d(0, -5%, 0);
+      opacity: 1;
+      color: $fontColorLight;
     }
-    a {
-        text-decoration: none;
+    .btn:focus {
+      outline: none;
     }
-    .btn-wrapper {
-        text-align: center;
-        @media screen and (min-width: $mobile-landscape) {
-            text-align: left;
-        }
-        .btn {
-            cursor: pointer;
-            display: inline-block;
-            border-radius: $borderRadius;
-            background-color: $colorBtn;
-            color: $fontColorLight;
-            letter-spacing: 0.05em;
-            transition: 0.3s;
-            border: 0;
-            font-size: 1.2rem;
-            padding: 10px 14px;
-            @media screen and (min-width: $mobile-portrait) {
-                margin-top: 3%;
-                font-size: 1.3rem;
-                padding: 12px 18px;
-            }
-            @media screen and (min-width: $mobile-landscape) {
-                margin-top: 2%;
-            }
-            @media screen and (min-width: $tablet-portrait) {
-                font-size: 1.8rem;
-            }
-        }
-        .btn:hover {
-            -webkit-transform: translate3d(0, -5%, 0);
-            transform: translate3d(0, -5%, 0);
-            opacity: 1;
-            color: $fontColorLight;
-        }
-        .btn:focus {
-            outline: none;
-        }
-    }
+  }
 }
 
 .featured-image {
+  display: block;
+  position: relative;
+  width: 85%;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6);
+  @media screen and (min-width: $mobile-portrait) {
+    width: 82%;
+  }
+  @media screen and (min-width: $mobile-landscape) {
+    width: 50%;
+    height: 65%;
+    margin: 2% 8% 0 auto;
+  }
+  @media screen and (min-width: $tablet-portrait) {
+    margin: 5% auto;
+    width: 80%;
+  }
+  @media screen and (min-width: $tablet-landscape) {
+    width: 48%;
+    margin: 2% 5% 0 auto;
+  }
+  @media screen and (min-width: $tablet-landscape) {
+    margin: 2% 8% 0 auto;
+  }
+  span {
     display: block;
     position: relative;
-    width: 85%;
-    margin: 0 auto;
-    -webkit-box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6);
-    box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6);
-    @media screen and (min-width: $mobile-portrait) {
-        width: 82%;
-    }
+    width: 100%;
+    height: 50vh;
     @media screen and (min-width: $mobile-landscape) {
-        width: 50%;
-        height: 65%;
-        margin: 2% 8% 0 auto;
+      height: 65vh;
     }
     @media screen and (min-width: $tablet-portrait) {
-        margin: 5% auto;
-        width: 80%;
+      height: 50vh;
     }
     @media screen and (min-width: $tablet-landscape) {
-        width: 48%;
-        margin: 2% 5% 0 auto;
+      height: 70vh;
     }
-    @media screen and (min-width: $tablet-landscape) {
-        margin: 2% 8% 0 auto;
-    }
-    span {
-        display: block;
-        position: relative;
-        width: 100%;
-        height: 50vh;
-        @media screen and (min-width: $mobile-landscape) {
-            height: 65vh;
-        }
-        @media screen and (min-width: $tablet-portrait) {
-            height: 50vh;
-        }
-        @media screen and (min-width: $tablet-landscape) {
-            height: 70vh;
-        }
-    }
+  }
 }
 
 .lemongrass-image {
-    background: url("/static/assets/lemongrass.jpg") no-repeat center;
-    background-size: cover;
+  background: url("/static/assets/lemongrass.jpg") no-repeat center;
+  background-size: cover;
 }
 
 .bcit-portfolio-image {
-    background: url("/static/assets/bcit-twd-portfolio.jpg") no-repeat center;
-    background-size: cover;
+  background: url("/static/assets/bcit-twd-portfolio.jpg") no-repeat center;
+  background-size: cover;
 }
 
 .audra-portfolio-image {
-    background: url("/static/assets/audra.jpg") no-repeat center;
-    background-size: cover;
+  background: url("/static/assets/audra.jpg") no-repeat center;
+  background-size: cover;
 }
 
 .ae-mechanical-image {
-    background: url("/static/assets/ae-mechanical.jpg") no-repeat center;
-    background-size: cover;
+  background: url("/static/assets/ae-mechanical.jpg") no-repeat center;
+  background-size: cover;
 }

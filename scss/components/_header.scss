@@ -1,53 +1,53 @@
 // Lemongrass header style
 .header.page-lemongrass a {
-    color: $fontColorLight;
+  color: $fontColorLight;
 }
 
 // About Page header style
 .header.page-about a {
-    color: $fontColorLight;
+  color: $fontColorLight;
 }
 
 // Index style
 .header {
-    font-family: $fontHeader;
-    display: flex;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 900;
-    padding: 20px 6.25%;
-    letter-spacing: 0.1em;
-    font-size: 1.6rem;
-    font-weight: 500;
+  font-family: $fontHeader;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 900;
+  padding: 20px 6.25%;
+  letter-spacing: 0.1em;
+  font-size: 1.6rem;
+  font-weight: 500;
+  @media screen and (min-width: $tablet-portrait) {
+    padding: 0;
+    font-size: 23px;
+  }
+  .name {
+    margin: 0;
+    cursor: pointer;
     @media screen and (min-width: $tablet-portrait) {
-        padding: 0;
-        font-size: 23px;
+      margin: 30px 0 auto 40px;
     }
-    .name {
-        margin: 0;
-        cursor: pointer;
-        @media screen and (min-width: $tablet-portrait) {
-            margin: 30px 0 auto 40px;
-        }
+  }
+  .nav {
+    margin-left: auto;
+    @media screen and (min-width: $tablet-portrait) {
+      margin: 30px 40px 15px auto;
     }
-    .nav {
-        margin-left: auto;
-        @media screen and (min-width: $tablet-portrait) {
-            margin: 30px 40px 15px auto;
-        }
-        a {
-            margin: 0;
-        }
+    a {
+      margin: 0;
     }
+  }
 }
 
 .header a {
-    text-decoration: none;
-    color: $fontColorDark;
-    font-weight: 700;
+  // text-decoration: none;
+  color: $fontColorDark;
+  font-weight: 700;
 }
 
 .nav a:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }

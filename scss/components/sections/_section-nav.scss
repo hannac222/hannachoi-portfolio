@@ -40,8 +40,7 @@
                 cursor: pointer;
                 background: $fontColorDark;
                 display: block;
-                position: relative;
-                text-decoration: none;
+                position: relative; // text-decoration: none;
                 width: 2.5px;
                 height: 16px;
                 @media screen and (min-width: $tablet-landscape) {
