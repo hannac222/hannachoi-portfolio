@@ -1,6 +1,8 @@
 .project-overview {
     .project-info {
         padding: 6rem 10%;
+        max-width: 1200px;
+        margin: 0 auto;
         @media screen and (min-width: $laptop) {
             padding: 9rem 10%;
         }
