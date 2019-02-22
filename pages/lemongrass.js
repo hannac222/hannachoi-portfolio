@@ -1,80 +1,57 @@
 import React from "react";
 import Layout from "../components/layout";
+import PagesHero from "../components/project-pages/pages-hero";
+import ProjectOverview from "../components/project-pages/project-overview";
+import ProjectContent from "../components/project-pages/project-content";
+import ProjectContentDetail from "../components/project-pages/project-content__detail";
 import PageNav from "../components/page-nav";
 import SocialMedia from "../components/social-media";
 
 const Lemongrass = () => (
   <Layout className="page-lemongrass">
-    <div className="wrapper-project">
-      <div className="page-top">
-        <span />
-        <div className="title lemontitle">
-          <h1>Lemongrass</h1>
-        </div>
-      </div>
-      <section className="project-container">
-        <div className="project-bg">
-          <div className="project-overview">
-            <ul>
-              <li>
-                <h2>Project Info.</h2>
-                <p>A fictional business website project</p>
-              </li>
-              <li className="visit-website">
-                <h2>Website</h2>
-                <a
-                  href="http://hchoi.bcitwebdeveloper.ca/lemongrass"
-                  target="_blank"
-                >
-                  Visit website
-                </a>
-              </li>
-              <li>
-                <h2>Technology</h2>
-                <p>HTML | CSS | Bootstrap | Responsive | jQuery</p>
-              </li>
-            </ul>
-          </div>
-          <div className="project-mockup">
-            <img
-              src="/static/assets/lemongrass-mockup.png"
-              alt="Lemongrass Mockup"
-            />
-          </div>
-        </div>
-        <div className="project-content">
-          <div className="concept">
-            <h2>Concept</h2>
-            <p>
-              The business model is an exotic brunch and lunch restaurant in a
-              suburb. It has a beautiful garden and relaxing atmosphere. Since
-              it’s a restaurant, it focuses on introducing the menu and the
-              interior of the place. The website makes it easy for people to
-              reach out to the business by displaying contact information and
-              social media icons in all the pages.
-            </p>
-          </div>
-          <div className="project-preview" />
-          <div className="development">
-            <h2>Development</h2>
-            <p>
-              A full responsive website using Bootstrap. As a scrolling feature,
-              the trendy CSS parallax effect with multiple background images to
-              create an interesting browsing experience. Also, a friendly
-              contact form validation indicates error messages for the user.
-            </p>
-          </div>
-        </div>
-        <div className="project-detail">
-          <img
-            src="/static/assets/lemongrass-detail.jpg"
-            alt="Lemongrass Detail Pages"
-          />
-        </div>
-      </section>
-      <PageNav previousLink="/audra-ricketts" nextLink="/bcit-portfolio" />
-      <SocialMedia />
-    </div>
+    <PagesHero pageTitle="Lemongrass" pageName="lemongrass" />
+
+    <ProjectOverview
+      pageName="lemongrass"
+      projectInfo="A fictional business website project"
+      siteUrl="http://hchoi.bcitwebdeveloper.ca/lemongrass"
+      technology="HTML | CSS | Bootstrap | Responsive | jQuery"
+      imgUrl="lemongrass-mockup.png"
+      alt="Lemongrass Mockup"
+    />
+
+    <ProjectContent
+      concept="The business model is an exotic brunch and lunch restaurant in a
+      suburb. It has a beautiful garden and relaxing atmosphere. Since
+      it’s a restaurant, it focuses on introducing the menu and the
+      interior of the place. The website makes it easy for people to
+      reach out to the business by displaying contact information and
+      social media icons in all the pages."
+      pageName="lemongrass"
+      previewUrl="lemongrass-preview.jpg"
+      previewAlt="Lemongrass website preview"
+      development="A full responsive website using Bootstrap. As a scrolling feature,
+      the trendy CSS parallax effect with multiple background images to
+      create an interesting browsing experience. Also, a friendly
+      contact form validation indicates error messages for the user."
+    />
+
+    <ProjectContentDetail
+      pageName="lemongrass"
+      detailUrl01="lemongrass-homepage.jpg"
+      detailAlt01="Lemongrass website Home page"
+      detailUrl02="lemongrass-location.jpg"
+      detailAlt02="Lemongrass website Location page"
+      detailUrl03="lemongrass-gallery.jpg"
+      detailAlt03="Lemongrass website Gallery page"
+      detailUrl04="lemongrass-menu.jpg"
+      detailAlt04="Lemongrass website Menu page"
+      detailUrl05="lemongrass-gallery-detail.jpg"
+      detailAlt05="Lemongrass website Gallery view detail page"
+    />
+
+    <PageNav previousLink="/audra-ricketts" nextLink="/bcit-portfolio" />
+    <SocialMedia />
   </Layout>
 );
 

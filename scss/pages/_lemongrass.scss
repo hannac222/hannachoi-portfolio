@@ -1,11 +1,23 @@
 .page-lemongrass {
-    .page-top {
+    .pages-hero {
         background-image: url("/static/assets/lemongrass.jpg");
     }
-    .project-preview {
-        background-image: url("/static/assets/lemongrass-preview.jpg");
+    .project-info {
+        background: $colorBgLightGrey;
+    }
+    .project-wireframes {
+        background: $colorBgLightGrey;
+        span {
+            background: $colorBgProjectDetail;
+        }
     }
     .project-detail {
         background: $colorBgLightGrey;
+        @media screen and (min-width: $tablet__landscape) {
+            height: 1640px;
+        }
+        @media screen and (min-width: $laptop) {
+            height: 1940px;
+        }
     }
 }

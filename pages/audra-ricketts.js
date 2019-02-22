@@ -37,6 +37,7 @@ const AudraRicketts = () => (
   confirmation email to users. To match the website design, we
   customized Google Maps colors and style."
     />
+
     <ProjectContentDetail
       pageName="audra-ricketts"
       detailUrl01="audra-detail-mainpage.jpg"
@@ -48,8 +49,9 @@ const AudraRicketts = () => (
       detailUrl04="audra-detail-contact.jpg"
       detailAlt04="Audra Rickkets website Contact page"
       detailUrl05="audra-detail-view.jpg"
-      detailAlt05="Audra Rickkets website Veiw detail page"
+      detailAlt05="Audra Rickkets website View detail page"
     />
+
     <PageNav previousLink="/ae-mechanical" nextLink="/lemongrass" />
     <SocialMedia />
   </Layout>
