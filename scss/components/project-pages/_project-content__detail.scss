@@ -1,0 +1,29 @@
+.project-detail {
+    text-align: center;
+    flex-flow: column wrap;
+    padding: 40px 0;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    @media screen and (min-width: $tablet__landscape) {
+        display: flex;
+        height: 1250px;
+    }
+    @media screen and (min-width: $laptop) {
+        height: 1540px;
+    }
+    @media screen and (min-width: $wide-desktop) {
+        height: 1740px;
+    }
+    img {
+        padding: 20px;
+        max-width: 600px;
+        width: 100%;
+        @media screen and (min-width: $tablet__landscape) {
+            max-width: 430px;
+        }
+        @media screen and (min-width: $laptop) {
+            max-width: 530px;
+        }
+    }
+}
