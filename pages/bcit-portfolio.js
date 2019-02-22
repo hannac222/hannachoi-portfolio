@@ -1,74 +1,64 @@
 import React from "react";
 import Layout from "../components/layout";
+import PagesHero from "../components/project-pages/pages-hero";
+import ProjectOverview from "../components/project-pages/project-overview";
+import ProjectContent from "../components/project-pages/project-content";
+import ProjectContentDetail from "../components/project-pages/project-content__detail";
 import PageNav from "../components/page-nav";
 import SocialMedia from "../components/social-media";
 
+const BcitConcept = () => (
+  <>
+    This is a single web page that links to major projects and assignments from
+    the &nbsp;
+    <a href="https://bcitwebdeveloper.ca" target="_blank">
+      Technical Web Designer
+    </a>
+    &nbsp;program at the&nbsp;
+    <a href="https://www.bcit.ca" target="_blank">
+      British Columbia Institute of Technology in Canada
+    </a>
+    .
+  </>
+);
+
 const BcitPortfolio = () => (
   <Layout className="page-bcit-twd">
-    <div className="wrapper-project">
-      <div className="page-top">
-        <span />
-        <div className="title">
-          <h1 className="bcitTitle">BCIT TWD Portfolio</h1>
-        </div>
-      </div>
-      <section className="project-container">
-        <div className="project-bg">
-          <div className="project-overview">
-            <ul>
-              <li>
-                <h2>Project Info.</h2>
-                <p>BCIT Technical Web Designer program portfolio</p>
-              </li>
-              <li className="visit-website">
-                <h2>Website</h2>
-                <a href="http://hchoi.bcitwebdeveloper.ca" target="_blank">
-                  Visit website
-                </a>
-              </li>
-              <li>
-                <h2>Technology</h2>
-                <p>HTML | CSS | Responsive | JavaScript | jQuery</p>
-              </li>
-            </ul>
-          </div>
-          <div className="project-mockup">
-            <img
-              src="/static/assets/bcit-twd-mockup.png"
-              alt="BCIT TWD Portfolio Mockup"
-            />
-          </div>
-        </div>
-        <div className="project-content">
-          <div className="concept">
-            <h2>Concept</h2>
-            <p>
-              It’s a single web page that links major projects and assignments
-              from BCIT Technical Web Designer program.
-            </p>
-          </div>
-          <div className="project-preview" />
-          <div className="development">
-            <h2>Development</h2>
-            <p>
-              Focused on building a simple responsive website and it has a
-              hamburger menu on smaller devices. On larger screens, the main
-              background video shows developers and designers collaborating on
-              projects. On smaller screens, the video is replaced with a static
-              image.
-            </p>
-          </div>
-        </div>
-        <div className="project-detail">
-          <img
-            src="/static/assets/bcit-twd-detail.jpg"
-            alt="BCIT TWD Portfolio Detail Pages"
-          />
-        </div>
-      </section>
-      <PageNav previousLink="/lemongrass" nextLink="/audra-ricketts" />
-      <SocialMedia />
-    </div>
+    <PagesHero pageTitle="BCIT TWD Portfolio" pageName="bcit-portfolio" />
+
+    <ProjectOverview
+      pageName="bcit-portfolio"
+      projectInfo="BCIT Technical Web Designer program portfolio"
+      siteUrl="http://hchoi.bcitwebdeveloper.ca"
+      technology="HTML + CSS | JavaScript | jQuery | Vue.js | PHP"
+      imgUrl="bcit-twd-mockup.png"
+      alt="BCIT TWD Portfolio Mockup"
+    />
+
+    <ProjectContent
+      concept={<BcitConcept />}
+      pageName="bcit-portfolio"
+      previewUrl="bcit-twd-preview.jpg"
+      previewAlt="BCIT TWD Portfolio website preview"
+      development="Focused on building a simple responsive website and it has a
+      hamburger menu on smaller devices. On larger screens, the main
+      background video shows developers and designers collaborating on
+      projects. On smaller screens, the video is replaced with a static
+      image."
+    />
+
+    <ProjectContentDetail
+      pageName="bcit-portfolio"
+      detailUrl01="bcit-twd-homepage.jpg"
+      detailAlt01="BCIT TWD portfolio website Home page"
+      detailUrl02="bcit-twd-mouse-over.jpg"
+      detailAlt02="BCIT TWD portfolio website thumbnails of my work"
+      detailUrl03="bcit-twd__mobile-version.jpg"
+      detailAlt03="BCIT TWD portfolio website mobile version"
+    />
+
+    <PageNav previousLink="/lemongrass" nextLink="/ae-mechanical" />
+    <SocialMedia />
   </Layout>
 );
 

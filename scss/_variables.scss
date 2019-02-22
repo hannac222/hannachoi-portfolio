@@ -8,6 +8,7 @@ $colorBgLightPink: #f4e8e9;
 $colorBtn: #ff4d5a;
 $colorLine: #27394d;
 $colorBgProjectDetail: #fafafa;
+$color__BCIT__detail__bg: #efece2;
 // Audra ricketts color
 $color__Audra__main: tomato;
 $color__Audra__bg: #fbf4ed;
@@ -28,16 +29,11 @@ $sizeMarginLeft: 40px;
 /**/
 
 // Fonts
-$fontHeader: "Comfortaa",
-cursive;
-$fontAboutParagraph: "Maven Pro",
-sans-serif;
-$fontAboutHightlight: "Roboto Mono",
-monospace;
-$fontTitle: "Rubik",
-sans-serif;
-$fontProjectInfo: "Carme",
-sans-serif;
+$fontHeader: "Comfortaa", cursive;
+$fontAboutParagraph: "Maven Pro", sans-serif;
+$fontAboutHightlight: "Roboto Mono", monospace;
+$fontTitle: "Rubik", sans-serif;
+$fontProjectInfo: "Carme", sans-serif;
 // Animation
 $anim: 250ms ease-in-out;
 $transitionDuration: 500ms;
@@ -75,12 +71,12 @@ $extra-wide: 1900px;
 
 // Placeholder
 %clearfix {
-    &:before,
-    &:after {
-        content: " ";
-        display: table;
-    }
-    &:after {
-        clear: both;
-    }
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
 }

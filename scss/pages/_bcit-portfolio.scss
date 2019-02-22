@@ -1,11 +1,35 @@
 .page-bcit-twd {
-    .page-top {
-        background-image: url("/static/assets/bcit-twd.jpg");
+    .pages-hero {
+        background-image: url("/static/assets/bcit-portfolio/bcit-twd.jpg");
     }
-    .project-preview {
-        background-image: url("/static/assets/bcit-twd-preview.jpg");
+    .project-info {
+        // background: $colorBgLightGrey;
+    }
+    .project-wireframes {
+        // background: $colorBgLightGrey;
+        span {
+            background: $colorBgProjectDetail;
+        }
     }
     .project-detail {
-        background-color: #efece2;
+        background: $color__BCIT__detail__bg;
+        @media screen and (min-width: $tablet__landscape) {
+            // height: 1640px;
+        }
+        @media screen and (min-width: $laptop) {
+            // height: 1940px;
+        }
+        img {
+            @media screen and (min-width: $laptop) {
+                max-width: 580px;
+            }
+        }
+        img:nth-child(3) {
+            max-width: 320px;
+        }
+        img:nth-child(4),
+        img:last-of-type {
+            display: none;
+        }
     }
 }
