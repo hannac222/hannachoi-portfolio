@@ -3,6 +3,7 @@ import Layout from "../components/layout";
 import PagesHero from "../components/project-pages/pages-hero";
 import ProjectOverview from "../components/project-pages/project-overview";
 import ProjectContent from "../components/project-pages/project-content";
+import ProjectContentDetail from "../components/project-pages/project-content__detail";
 import PageNav from "../components/page-nav";
 import SocialMedia from "../components/social-media";
 
@@ -26,6 +27,7 @@ const AudraRicketts = () => (
   statement and CV as well as browsing her process and contact her.
   To make her artworks stand out, it’s designed modern, clean,
   minimalistic with a white background."
+      pageName="audra-ricketts"
       previewUrl="audra-preview.jpg"
       previewAlt="Audra Ricketts website preview"
       development="For the content management system, we built it with Wordpress and
@@ -34,10 +36,20 @@ const AudraRicketts = () => (
   is built with the Ninja form plug-in which automatically sends a
   confirmation email to users. To match the website design, we
   customized Google Maps colors and style."
-      detailUrl="audra-detail.jpg"
-      detailAlt="Audra Ricketts detail pages"
     />
-
+    <ProjectContentDetail
+      pageName="audra-ricketts"
+      detailUrl01="audra-detail-mainpage.jpg"
+      detailAlt01="Audra Rickkets website Home page"
+      detailUrl02="audra-detail-artpage.jpg"
+      detailAlt02="Audra Rickkets website Artwork page"
+      detailUrl03="audra-detail-artist.jpg"
+      detailAlt03="Audra Rickkets website Artist page"
+      detailUrl04="audra-detail-contact.jpg"
+      detailAlt04="Audra Rickkets website Contact page"
+      detailUrl05="audra-detail-view.jpg"
+      detailAlt05="Audra Rickkets website Veiw detail page"
+    />
     <PageNav previousLink="/ae-mechanical" nextLink="/lemongrass" />
     <SocialMedia />
   </Layout>
