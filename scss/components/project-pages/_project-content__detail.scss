@@ -1,24 +1,30 @@
 .project-detail {
     text-align: center;
     flex-flow: column wrap;
-    padding: 40px 0;
     align-content: center;
     justify-content: center;
     margin: 0 auto;
+    padding: 20px;
     @media screen and (min-width: $tablet__landscape) {
-        display: flex;
-        height: 1250px;
+        padding: 40px 0;
+        display: flex; // height: 1250px;
+        height: 1540px;
     }
     @media screen and (min-width: $laptop) {
-        height: 1540px;
+        height: 1740px;
     }
     @media screen and (min-width: $wide-desktop) {
         height: 1740px;
     }
     img {
-        padding: 20px;
+        margin: 20px 0;
         max-width: 600px;
         width: 100%;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
+        @media screen and (min-width: $tablet__portrait) {
+            margin: 20px;
+            padding: 0;
+        }
         @media screen and (min-width: $tablet__landscape) {
             max-width: 430px;
         }
