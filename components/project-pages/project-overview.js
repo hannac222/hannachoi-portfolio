@@ -26,7 +26,7 @@ export default ({
       </ul>
     </div>
     <div className="project-wireframes">
-      <img src={"../static/assets/" + imgUrl} alt={alt} />
+      <img src={"../static/assets/" + pageName + "/" + imgUrl} alt={alt} />
       <span />
     </div>
   </div>
