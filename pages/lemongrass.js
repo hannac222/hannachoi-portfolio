@@ -50,7 +50,7 @@ const Lemongrass = () => (
       detailAlt05="Lemongrass website Gallery view detail page"
     />
 
-    <PageNav previousLink="/audra-ricketts" nextLink="/bcit-portfolio" />
+    <PageNav previousLink="/audra-ricketts" nextLink="/bcit-landing-page" />
     <SocialMedia />
   </Layout>
 );

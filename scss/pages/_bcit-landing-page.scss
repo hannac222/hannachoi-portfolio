@@ -1,0 +1,35 @@
+.page-bcit-twd {
+  .title {
+    h1 {
+      @media screen and (max-width: $mobile__landscape__small) {
+        font-size: 2rem;
+      }
+    }
+  }
+  .pages-hero {
+    background-image: url("/static/assets/bcit-landing-page/bcit-twd.jpg");
+  }
+  .project-wireframes {
+    span {
+      background: $colorBgProjectDetail;
+    }
+  }
+  .project-detail {
+    background: $color__BCIT__detail__bg;
+    @media screen and (min-width: $tablet__landscape) {
+      height: 1340px;
+    }
+    img {
+      @media screen and (min-width: $tablet__landscape) {
+        max-width: 580px;
+      }
+    }
+    img:nth-child(3) {
+      max-width: 320px;
+    }
+    img:nth-child(4),
+    img:last-of-type {
+      display: none;
+    }
+  }
+}
