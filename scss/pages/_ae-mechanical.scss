@@ -1,56 +1,52 @@
-.page-ae {
-//   .page-top {
-    //     // background-image: url("/static/assets/ae-banner.jpg");
-    //     .title {
-    //       h1 {
-    //         color: #fff;
-    //       }
-    //     }
-    //   }
-  .project-bg {
-    background: $colorBackground;
-  }
-  .project-wireframes {
-    margin-top: 10%;
-    img {
-      border: 1px solid tomato;
-      background-color: #fff;
-      padding: 10px;
-      @media screen and (min-width: $tablet-portrait) {
-        padding: 40px;
-      }
+.page-ae-mechanical {
+    .pages-hero {
+        &.ae-mechanical {
+            background-image: url("/static/assets/ae-mechanical/ae-banner.jpg");
+        }
     }
-  }
-  .visit-website {
-    a {
-      color: tomato;
+    .project-wireframes {
+        img {
+            display: none;
+        }
     }
-  }
-  .project-content {
-    background-color: #fbf4ed;
-    .concept {
-      padding: 8% 0;
-      @media screen and (min-width: $mobile-landscape) {
-        margin-top: 13rem;
-      }
-      @media screen and (min-width: $mobile-landscape6s) {
-        padding: 8% 3rem;
-      }
-      @media screen and (min-width: $tablet-landscape) {
-        margin-top: 23rem;
-      }
-      @media screen and (min-width: $desktop) {
-        margin-top: 38rem;
-      }
-      @media screen and (min-width: $extra-wide) {
-        margin-top: 17rem;
-      }
+    .ae-video {
+        display: grid;
+        grid-template-columns: 7.5% repeat(4, 1fr) 7.5%;
+        grid-template-rows: 1fr 1fr;
+        max-width: 100%;
+        @media screen and (max-width: $tablet__portrait) {
+            display: none;
+        }
+        img {
+            max-width: 900px;
+            grid-column: 2/6;
+            grid-row: 1/3;
+            z-index: 800;
+            margin: 0 auto;
+            width: 100%;
+        }
+        span {
+            grid-row-start: 2;
+            grid-column: 1/ -1;
+            background-color: #fafafa;
+        }
+        video {
+            max-width: 830px;
+            padding-top: 36px;
+            grid-column: 2/6;
+            grid-row: 1/3;
+            z-index: 800;
+            margin: 0 auto;
+            width: 92%;
+        }
     }
-  }
-  .project-preview {
-    background-image: url("/static/assets/audra-preview.jpg");
-  }
-  .project-detail {
-    background-color: #e9f4f1;
-  }
+    .project-detail {
+        @media screen and (min-width: $tablet__landscape) {
+            height: 2900px;
+            justify-content: start;
+        }
+        @media screen and (min-width: $laptop) {
+            height: 3500px;
+        }
+    }
 }
