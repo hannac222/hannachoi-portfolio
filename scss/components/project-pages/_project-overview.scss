@@ -44,6 +44,8 @@
                 }
                 a {
                     color: $colorBtn;
+                    text-transform: uppercase;
+                    letter-spacing: 0.1rem;
                 }
                 a:hover {
                     opacity: 0.5;

@@ -16,7 +16,7 @@ export default ({
         <li>
           <h2>Website</h2>
           <a href={siteUrl} target="_blank">
-            Visit website
+            View live
           </a>
         </li>
         <li>

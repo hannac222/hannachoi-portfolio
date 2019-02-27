@@ -32,21 +32,13 @@ const AeMechanical = () => (
     </div>
 
     <ProjectContent
-      concept="The purpose of this website is to showcase the client's past and
-              current artwork to galleries and interested buyers. It’s a place
-              to learn about the client by reading her biography, artist
-              statement and CV as well as browsing her process and contact her.
-              To make her artworks stand out, it’s designed modern, clean,
-              minimalistic with a white background."
+      concept="The key design of project AE Mechanical is easy-contact menus and introducing their wide service rage to market as a plumbing company. This new website not only brought the company into the modern, but also customers get provided essential information about the business.
+      "
       pageName="ae-mechanical"
       previewUrl="ae-preview.jpg"
       previewAlt="AE Mechanical Preview"
-      development=" For the content management system, we built it with Wordpress and
-              a customized theme and admin dashboard. With Lightbox for the
-              gallery, users are able to look through images. The contact form
-              is built with the Ninja form plug-in which automatically sends a
-              confirmation email to users. To match the website design, we
-              customized Google Maps colors and style."
+      development="Based on its target user, the business contact number positioned top-fixed in the header so it's always indicated to users and can call them right away. Integrating Instagram feed and Google Maps by fetching data from API in react.js makes the site looks professional and communicational.
+      "
     />
 
     <ProjectContentDetail

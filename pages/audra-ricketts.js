@@ -30,7 +30,7 @@ const AudraRicketts = () => (
       pageName="audra-ricketts"
       previewUrl="audra-preview.jpg"
       previewAlt="Audra Ricketts website preview"
-      development="For the content management system, we built it with Wordpress and
+      development="For the content management system, we built it with WordPress and
   a customized theme and admin dashboard. With Lightbox for the
   gallery, users are able to look through images. The contact form
   is built with the Ninja form plug-in which automatically sends a
