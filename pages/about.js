@@ -18,8 +18,8 @@ const About = () => (
         <div className="about-body">
           <h1>Hi, I’m Hanna.</h1>
           <p>
-            I’m a web developer based in Vancouver, BC. I love to write clean,
-            efficient and reusable code to develop user friendly interface
+            I’m a web developer based in London, the UK. I love to write clean,
+            efficient and reusable code to develop user-friendly interface
             applications. I can deliver projects from concept to completion.
           </p>
           <div className="strengths">
