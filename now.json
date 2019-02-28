@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "alias": ["hannachoi", "beta.hannachoi.ca"],
+  "alias": ["beta.hannachoi.ca"],
   "regions": ["sfo1", "bru1"],
   "builds": [
     {
