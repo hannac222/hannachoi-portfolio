@@ -25,17 +25,12 @@ const AudraRicketts = () => (
   current artwork to galleries and interested buyers. It’s a place
   to learn about the client by reading her biography, artist
   statement and CV as well as browsing her process and contact her.
-  To make her artworks stand out, it’s designed modern, clean,
+  To make her artworks stand out, we designed this modern, clean,
   minimalistic with a white background."
       pageName="audra-ricketts"
       previewUrl="audra-preview.jpg"
       previewAlt="Audra Ricketts website preview"
-      development="For the content management system, we built it with WordPress and
-  a customized theme and admin dashboard. With Lightbox for the
-  gallery, users are able to look through images. The contact form
-  is built with the Ninja form plug-in which automatically sends a
-  confirmation email to users. To match the website design, we
-  customized Google Maps colors and style."
+      development="For the content management system, we built it with WordPress including a customized theme and admin dashboard. The gallery in Lightbox, users are able to look through images. The contact form is built with the Ninja form plug-in which automatically sends a confirmation email to users. To match the website design, we customized Google Maps colors and style."
     />
 
     <ProjectContentDetail

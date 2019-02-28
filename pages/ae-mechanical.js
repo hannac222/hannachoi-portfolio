@@ -32,7 +32,7 @@ const AeMechanical = () => (
     </div>
 
     <ProjectContent
-      concept="The key design of project AE Mechanical is easy-contact menus and introducing their wide service rage to market as a plumbing company. This new website not only brought the company into the modern, but also customers get provided essential information about the business.
+      concept="The key design of project AE Mechanical is easy-contact menus and introducing their wide service rage to market as a plumbing company. This new website not only brought the company into the modern but also customers get provided essential information about the business.
       "
       pageName="ae-mechanical"
       previewUrl="ae-preview.jpg"

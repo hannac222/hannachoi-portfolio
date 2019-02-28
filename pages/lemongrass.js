@@ -22,7 +22,7 @@ const Lemongrass = () => (
 
     <ProjectContent
       concept="The business model is an exotic brunch and lunch restaurant in a
-      suburb. It has a beautiful garden and relaxing atmosphere. Since
+      suburb. It has a beautiful garden and a relaxing atmosphere. Since
       it’s a restaurant, it focuses on introducing the menu and the
       interior of the place. The website makes it easy for people to
       reach out to the business by displaying contact information and
@@ -30,9 +30,9 @@ const Lemongrass = () => (
       pageName="lemongrass"
       previewUrl="lemongrass-preview.jpg"
       previewAlt="Lemongrass website preview"
-      development="A full responsive website using Bootstrap. As a scrolling feature,
+      development="A fully responsive website using Bootstrap. As a scrolling feature,
       the trendy CSS parallax effect with multiple background images to
-      create an interesting browsing experience. Also, a friendly
+      create an impressive browsing experience. Also, a friendly
       contact form validation indicates error messages for the user."
     />
 

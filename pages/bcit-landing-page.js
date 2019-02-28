@@ -13,7 +13,7 @@ const BcitConcept = () => (
     <a href="https://bcitwebdeveloper.ca" target="_blank">
       Technical Web Designer
     </a>
-    &nbsp; program at the&nbsp;
+    &nbsp;program at the&nbsp;
     <a href="https://www.bcit.ca" target="_blank">
       British Columbia Institute of Technology in Canada.
     </a>
@@ -35,7 +35,7 @@ const BcitLandingPage = () => (
       pageName="bcit-landing-page"
       previewUrl="bcit-twd-preview.jpg"
       previewAlt="BCIT TWD landing page website preview"
-      development="For the main landing page, I focused on a simple, modern and responsive design. The background video is replaced with a static image in mobile and tablet screens. This is a place to present over 10 websites and web applications including search engine optimization and exercises of fetching data from API.
+      development="For the main landing page, I focused on a simple, modern and responsive design. The background video is replaced with a static image in mobile and tablet screens. The landing page is a place to present over ten websites and web applications including search engine optimization and exercises of fetching data from API.
       "
     />
     <ProjectContentDetail
