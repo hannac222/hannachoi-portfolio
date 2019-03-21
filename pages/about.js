@@ -18,9 +18,10 @@ const About = () => (
         <div className="about-body">
           <h1>Hi, I’m Hanna.</h1>
           <p>
-            I’m a web developer based in London, the UK. I love to write clean,
-            efficient and reusable code to develop user-friendly interface
-            applications. I can deliver projects from concept to completion.
+            I’m a web developer &amp; web designer based in London, UK. I love
+            to write clean, efficient and reusable code to develop user-friendly
+            interface applications in simple and modern design. I can deliver
+            projects from concept to completion.
           </p>
           <div className="strengths">
             <span>Communication</span>
@@ -55,11 +56,11 @@ const About = () => (
               done for maintenance and the next round of development.
             </p>
           </div>
-          <p>
+          {/* <p>
             I work primarily with <span>React.js, Next.js</span> and{" "}
             <span>Sass</span> mostly on the front-end side. However, I’m ready
             to pick up new languages or frameworks and it is always exciting!
-          </p>
+          </p> */}
           <div className="contacts">
             <p>
               Have a project you’d like to discuss?
